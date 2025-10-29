@@ -1,0 +1,352 @@
+{
+  "cropName": "banana",
+  "location": {
+    "country": "India",
+    "stateOrProvince": "Maharashtra",
+    "districtOrCounty": "Jalgaon, Solapur",
+    "notes": "Jalgaon district is known as the hub of banana production, while Solapur has become the hub for banana exports.",
+    "source_snippet": "Within Maharashtra, Jalgaon district is known as the hub of banana production, while Solapur has become the hub for banana exports."
+  },
+  "season": {
+    "name": "Winter",
+    "disadvantages": [
+      "stunted growth",
+      "yellowing or scorched leaves"
+    ],
+    "disadvantages_source_snippet": [
+      "stunted growth",
+      "yellowing or scorched leaves"
+    ]
+  },
+  "temperature": {
+    "min": {
+      "_raw": "9",
+      "value": 9.0
+    },
+    "min_raw": {
+      "value": 9.0,
+      "unit": "C",
+      "_raw": "9°C"
+    },
+    "max": {
+      "_raw": "26",
+      "value": 26.0
+    },
+    "max_raw": {
+      "min": 25.0,
+      "max": 26.0,
+      "unit": "C",
+      "_raw": "25-26°C"
+    },
+    "unit": "°C",
+    "growthInitiation": {
+      "_raw": "16",
+      "value": 16.0
+    },
+    "growthInitiation_raw": {
+      "value": 16.0,
+      "unit": "C",
+      "_raw": "16°C"
+    },
+    "tips": [
+      {
+        "value": 16.0,
+        "unit": "C",
+        "_raw": "Plants actively absorb nutrients once the temperature goes above 16°C."
+      }
+    ],
+    "tips_source_snippet": [
+      {
+        "value": 16.0,
+        "unit": "C",
+        "_raw": "Plants actively absorb nutrients once the temperature goes above 16°C."
+      }
+    ]
+  },
+  "idealConditions": {
+    "soil": {
+      "moisture": "Maintain a proper moisture and air balance (wapsa condition) in the root zone.",
+      "moisture_source_snippet": "Maintain a proper moisture and air balance (wapsa condition) in the root zone."
+    }
+  },
+  "landPreparation": [],
+  "planting": [
+    {
+      "name": "Monsoon Plantings (Mrug Baug)",
+      "description": "The bunch emergence (nisava) is underway. In some orchards, it's complete, while in others, the bunches are in the development stage.",
+      "description_source_snippet": "The bunch emergence (nisava) is underway. In some orchards, it's complete, while in others, the bunches are in the development stage.",
+      "season": {
+        "name": "April-May Planting (High Summer)",
+        "advantages": [
+          "Protect young plants by either sowing Sunn Hemp (ताग) on the beds or using crop covers to manage heat stress."
+        ],
+        "advantages_source_snippet": [
+          "Protect young plants by either sowing Sunn Hemp (ताग) on the beds or using crop covers to manage heat stress."
+        ],
+        "avoid": [
+          {
+            "value": 47.0,
+            "unit": "C",
+            "_raw": "Extreme heat, with temperatures reaching up to 47°C."
+          }
+        ],
+        "avoid_source_snippet": [
+          {
+            "value": 47.0,
+            "unit": "C",
+            "_raw": "Extreme heat, with temperatures reaching up to 47°C."
+          }
+        ]
+      },
+      "supplements": [],
+      "diseases": []
+    },
+    {
+      "name": "Recent Plantings (Kande Baug)",
+      "description": "These have been largely completed.",
+      "description_source_snippet": "These have been largely completed.",
+      "season": {
+        "name": "May-July Planting",
+        "advantages": [
+          "Avoid planting maize or cotton near banana fields, as they act as host crops for the virus and its vectors. This has proven effective in controlling CMV in several villages."
+        ],
+        "advantages_source_snippet": [
+          "Avoid planting maize or cotton near banana fields, as they act as host crops for the virus and its vectors. This has proven effective in controlling CMV in several villages."
+        ],
+        "avoid": [
+          "Young plants in July-August are highly susceptible to Cucumber Mosaic Virus (CMV)."
+        ],
+        "avoid_source_snippet": [
+          "Young plants in July-August are highly susceptible to Cucumber Mosaic Virus (CMV)."
+        ]
+      },
+      "supplements": [],
+      "diseases": [
+        {
+          "name": "Cucumber Mosaic Virus (CMV)",
+          "description": "Young plants in July-August are highly susceptible to Cucumber Mosaic Virus (CMV).",
+          "description_source_snippet": "Young plants in July-August are highly susceptible to Cucumber Mosaic Virus (CMV).",
+          "cause": "viral",
+          "cure": []
+        }
+      ]
+    }
+  ],
+  "irrigation": [
+    {
+      "name": "Winter Irrigation",
+      "description": "Continue irrigating the orchard.",
+      "description_source_snippet": "Continue irrigating the orchard.",
+      "tips": [
+        "Do NOT Stop Watering"
+      ],
+      "tips_source_snippet": [
+        "Do NOT Stop Watering"
+      ],
+      "waterUsage": {
+        "min": 18.0,
+        "max": 20.0,
+        "unit": "L",
+        "_raw": "18-20 liters of water per plant as needed."
+      },
+      "waterUsage_source_snippet": "Provide 18-20 liters of water per plant as needed.",
+      "intervals": "Irrigate at night.",
+      "intervals_source_snippet": "Irrigate at night."
+    }
+  ],
+  "plantCare": [
+    {
+      "name": "Winter Management",
+      "description": "To combat the effects of the cold, follow these critical steps for irrigation and nutrition.",
+      "description_source_snippet": "To combat the effects of the cold, follow these critical steps for irrigation and nutrition.",
+      "supplements": [
+        {
+          "name": "Urea",
+          "quantityOfApplication": {
+            "_raw": "5",
+            "value": 5.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "Fertigation",
+          "use_source_snippet": "Fertigation",
+          "usage": "Provide water-soluble fertilizers through the drip system every fourth day.",
+          "usage_source_snippet": "Provide water-soluble fertilizers through the drip system every fourth day."
+        },
+        {
+          "name": "12:61:00 (MAP) or Phosphoric Acid",
+          "quantityOfApplication": {
+            "_raw": "2",
+            "value": 2.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "Fertigation",
+          "use_source_snippet": "Fertigation",
+          "usage": "Provide water-soluble fertilizers through the drip system every fourth day.",
+          "usage_source_snippet": "Provide water-soluble fertilizers through the drip system every fourth day."
+        },
+        {
+          "name": "00:00:50 (SOP / White Potash)",
+          "quantityOfApplication": {
+            "_raw": "6.5",
+            "value": 6.5
+          },
+          "unitOfMeasurement": "kg",
+          "use": "Fertigation",
+          "use_source_snippet": "Fertigation",
+          "usage": "Provide water-soluble fertilizers through the drip system every fourth day.",
+          "usage_source_snippet": "Provide water-soluble fertilizers through the drip system every fourth day."
+        },
+        {
+          "name": "Magnesium Sulphate",
+          "quantityOfApplication": {
+            "_raw": "1",
+            "value": 1.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "Fertigation",
+          "use_source_snippet": "Fertigation",
+          "usage": "Provide water-soluble fertilizers through the drip system every fourth day.",
+          "usage_source_snippet": "Provide water-soluble fertilizers through the drip system every fourth day."
+        }
+      ],
+      "diseases": [
+        {
+          "name": "Fungal Blight (Karpa)",
+          "description": "This is a disease. You will see fungal spots or dots on the leaf. These spots merge, and the leaf \"burns\" or dies.",
+          "description_source_snippet": "This is a disease. You will see fungal spots or dots on the leaf. These spots merge, and the leaf \"burns\" or dies.",
+          "cause": "Fungal",
+          "symptoms": [
+            "fungal spots or dots on the leaf",
+            "spots merge",
+            "leaf \"burns\" or dies"
+          ],
+          "symptoms_source_snippet": [
+            "fungal spots or dots on the leaf",
+            "These spots merge",
+            "and the leaf \"burns\" or dies"
+          ],
+          "cure": []
+        },
+        {
+          "name": "Cold Injury (Charka)",
+          "description": "This is not a disease but damage to the leaf cells caused by cold temperatures. The leaf turns yellow suddenly and looks scorched.",
+          "description_source_snippet": "This is not a disease but damage to the leaf cells caused by cold temperatures. The leaf turns yellow suddenly and looks scorched.",
+          "cause": "damage to the leaf cells caused by cold temperatures",
+          "cause_source_snippet": "damage to the leaf cells caused by cold temperatures",
+          "symptoms": [
+            "leaf turns yellow suddenly",
+            "looks scorched"
+          ],
+          "symptoms_source_snippet": [
+            "The leaf turns yellow suddenly",
+            "looks scorched"
+          ],
+          "cure": []
+        },
+        {
+          "name": "Sigatoka Leaf Spot",
+          "description": "Increases with rainfall.",
+          "description_source_snippet": "Increases with rainfall.",
+          "cause": "rainfall",
+          "cure": [
+            {
+              "name": "Preventive sprays",
+              "description": "Employ preventive sprays before the disease appears, as it is very difficult to control once severe.",
+              "description_source_snippet": "Employ preventive sprays before the disease appears, as it is very difficult to control once severe.",
+              "use": "control",
+              "use_source_snippet": "to control",
+              "usage": "Employ preventive sprays before the disease appears",
+              "usage_source_snippet": "Employ preventive sprays before the disease appears",
+              "tips": [
+                "Maintain clean orchards and good plant nutrition."
+              ],
+              "tips_source_snippet": [
+                "Maintain clean orchards and good plant nutrition."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fusarium Wilt (Panama Disease)",
+          "description": "A deadly, soil-borne disease that has appeared in nearby regions (Rajpipla, Bharuch, Surat, Burhanpur).",
+          "description_source_snippet": "A deadly, soil-borne disease that has appeared in nearby regions (Rajpipla, Bharuch, Surat, Burhanpur).",
+          "cause": "soil-borne disease",
+          "cause_source_snippet": "soil-borne disease",
+          "symptoms": [],
+          "cure": [
+            {
+              "name": "Strict Quarantine Rules",
+              "description": "Vehicle Disinfection: Disinfect the wheels of all vehicles and motorbikes entering villages and farms.\nLaborer Hygiene: Provide dedicated, clean footwear to farm laborers or ensure their personal footwear is disinfected before they enter the orchard.",
+              "description_source_snippet": "Vehicle Disinfection: Disinfect the wheels of all vehicles and motorbikes entering villages and farms.\nLaborer Hygiene: Provide dedicated, clean footwear to farm laborers or ensure their personal footwear is disinfected before they enter the orchard.",
+              "use": "To prevent the spread of this devastating disease into the banana-growing regions of Maharashtra.",
+              "use_source_snippet": "To prevent the spread of this devastating disease into the banana-growing regions of Maharashtra.",
+              "usage": "Disinfect the wheels of all vehicles and motorbikes entering villages and farms. Provide dedicated, clean footwear to farm laborers or ensure their personal footwear is disinfected before they enter the orchard.",
+              "usage_source_snippet": "Disinfect the wheels of all vehicles and motorbikes entering villages and farms. Provide dedicated, clean footwear to farm laborers or ensure their personal footwear is disinfected before they enter the orchard."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Applying fertilizers by hand is ineffective in winter because the cold reduces their ability to dissolve in the soil. Fertigation is essential."
+      ],
+      "tips_source_snippet": [
+        "Applying fertilizers by hand is ineffective in winter because the cold reduces their ability to dissolve in the soil. Fertigation is essential."
+      ]
+    }
+  ],
+  "fruitCare": [
+    {
+      "name": "Export-Grade Bunches",
+      "description": "Practices for Export-Grade Bunches (especially for bunches emerging in Jan-Feb)",
+      "description_source_snippet": "Practices for Export-Grade Bunches (especially for bunches emerging in Jan-Feb)",
+      "diseases": [
+        {
+          "name": "Pitting (Fruit Peel Disease)",
+          "description": "Affects bunches emerging in October-November.",
+          "description_source_snippet": "Affects bunches emerging in October-November.",
+          "cure": [
+            {
+              "name": "preventive treatments",
+              "description": "Apply preventive treatments (e.g., Topsin powder, Imida pesticide) directly on the bunch in June-July, just as the hands are opening.",
+              "description_source_snippet": "Apply preventive treatments (e.g., Topsin powder, Imida pesticide) directly on the bunch in June-July, just as the hands are opening.",
+              "use": "preventive",
+              "use_source_snippet": "preventive",
+              "usage": "Apply preventive treatments (e.g., Topsin powder, Imida pesticide) directly on the bunch in June-July, just as the hands are opening.",
+              "usage_source_snippet": "Apply preventive treatments (e.g., Topsin powder, Imida pesticide) directly on the bunch in June-July, just as the hands are opening."
+            }
+          ]
+        }
+      ],
+      "supplements": [],
+      "uses": "Export-Grade Bunches",
+      "uses_source_snippet": "Export-Grade Bunches",
+      "usage": "Bud Injection: Injecting the male bud with nutrients/chemicals.\nBunch Spray: Applying protective sprays on the bunch.\nFlower Removal: Removing the male florets.\nBagging: Using skirting bags for protection.\nHand Selection: Pruning the bunch to keep 9-10 hands for better fruit filling and quality.",
+      "usage_source_snippet": "Bud Injection: Injecting the male bud with nutrients/chemicals.\nBunch Spray: Applying protective sprays on the bunch.\nFlower Removal: Removing the male florets.\nBagging: Using skirting bags for protection.\nHand Selection: Pruning the bunch to keep 9-10 hands for better fruit filling and quality."
+    }
+  ],
+  "harvesting": [],
+  "postHarvesting": [],
+  "storage": [
+    {
+      "description": "Developing cold storage facilities to store bananas and fill containers.",
+      "description_source_snippet": "Developing cold storage facilities to store bananas and fill containers."
+    }
+  ],
+  "fruitProcessing": [],
+  "transportation": [],
+  "exporting": [
+    {
+      "description": "Improving processes for exporting.",
+      "description_source_snippet": "Improving processes for exporting."
+    }
+  ],
+  "metadata": {
+    "version": {
+      "_raw": "1.2",
+      "value": 1.2
+    },
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  }
+}

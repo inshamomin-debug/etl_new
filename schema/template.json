@@ -1,0 +1,718 @@
+{
+  "cropName": "Name of the crop variety being referred to.",
+  "variety": "Specific variety of the crop being referred to.",
+
+  "location": {
+    "country": "Country or region where this crop is cultivated.",
+    "stateOrProvince": "State, province, or sub-region of cultivation.",
+    "districtOrCounty": "District, county, or local farming area.",
+    "latitude": "Latitude of cultivation area.",
+    "longitude": "Longitude of cultivation area.",
+    "altitude": "Elevation in meters above sea level.",
+    "climateType": "General climate category (e.g., tropical, subtropical, arid).",
+    "soilRegion": "Regional soil classification or zone name.",
+    "rainfallPattern": "Typical rainfall characteristics or distribution for this area.",
+    "notes": "Any location-specific notes relevant to crop performance or management."
+  },
+
+  "season": {
+    "name": "Primary growing season name (e.g., Rabi, Kharif, Summer).",
+    "startMonth": "Month or range when planting begins.",
+    "endMonth": "Month or range when harvest concludes.",
+    "durationDays": "Approximate crop duration from planting to harvest in days.",
+    "temperatureRange": {
+      "min": "Minimum expected seasonal temperature.",
+      "max": "Maximum expected seasonal temperature.",
+      "ideal": "Ideal temperature for optimal yield.",
+      "unit": "°C or °F"
+    },
+    "rainfallRange": {
+      "min": "Minimum seasonal rainfall in mm.",
+      "max": "Maximum seasonal rainfall in mm.",
+      "ideal": "Ideal rainfall range for healthy growth.",
+      "unit": "mm"
+    },
+    "advantages": [
+      "Key advantages of cultivating in this season."
+    ],
+    "disadvantages": [
+      "Potential drawbacks or challenges in this season."
+    ],
+    "tips": [
+      "Best practices or optimization advice for this growing season."
+    ]
+  },
+
+  "temperature": {
+    "min": "Minimum tolerated temperature.",
+    "max": "Maximum tolerated temperature.",
+    "ideal": "Ideal temperature range for growth.",
+    "unit": "°C or °F",
+    "growthInitiation": "Temperature range at which germination or early growth begins.",
+    "peakGrowth": "Temperature range supporting maximum vegetative or reproductive growth.",
+    "growthDecline": "Temperature threshold beyond which growth slows or stops.",
+    "corrective": {
+      "whenTooHigh": "Actions to take when temperature exceeds the ideal range.",
+      "whenTooLow": "Actions to take when temperature drops below the ideal range."
+    },
+    "avoid": [
+      "Conditions or events to avoid regarding temperature extremes."
+    ],
+    "tips": [
+      "Tips for managing temperature during different growth stages."
+    ]
+  },
+
+  "properties": [
+    "General defining characteristics or notable traits of the variety."
+  ],
+
+  "rootInformation": [
+    "Details about the root system, depth, and structure."
+  ],
+
+  "idealConditions": {
+    "temperature": {
+      "min": "Minimum temperature required for growth.",
+      "max": "Maximum tolerable temperature.",
+      "ideal": "Ideal range for optimal growth.",
+      "unit": "°C or °F",
+      "growthInitiation": "Temperature for germination or early growth.",
+      "peakGrowth": "Temperature for maximum biomass or flowering.",
+      "growthDecline": "Temperature above which productivity falls.",
+      "corrective": {
+        "whenTooHigh": "Recommended actions when too hot.",
+        "whenTooLow": "Recommended actions when too cold."
+      },
+      "avoid": [
+        "Temperature situations to avoid."
+      ],
+      "tips": [
+        "Temperature management best practices."
+      ]
+    },
+    "humidity": {
+      "min": "Minimum humidity required for healthy growth.",
+      "max": "Maximum humidity before disease risk increases.",
+      "ideal": "Ideal humidity level.",
+      "unit": "%",
+      "corrective": {
+        "whenTooHigh": "Ventilation or dehumidification measures.",
+        "whenTooLow": "Misting, irrigation, or mulching to raise humidity."
+      },
+      "avoid": [
+        "Conditions where humidity may cause fungal or bacterial growth."
+      ],
+      "tips": [
+        "Advice for maintaining consistent humidity."
+      ]
+    },
+    "soil": {
+      "name": "Preferred soil type (e.g., loamy, sandy, clay-loam).",
+      "ph": {
+        "min": "Minimum acceptable pH value.",
+        "max": "Maximum acceptable pH value.",
+        "ideal": "Ideal soil pH for nutrient uptake.",
+        "unit": "pH",
+        "avoid": [
+          "pH levels where nutrient availability is compromised."
+        ],
+        "corrective": {
+          "whenTooHigh": "Add sulfur or organic matter.",
+          "whenTooLow": "Apply lime or alkaline amendments."
+        },
+        "tips": [
+          "Test soil pH before planting; adjust gradually."
+        ]
+      },
+      "drainage": "Drainage requirements (e.g., well-drained).",
+      "fertility": "Fertility requirement (e.g., moderate, high).",
+      "moisture": "Preferred soil moisture level.",
+      "texture": "Soil texture (fine, medium, coarse).",
+      "nutrientProfile": [
+        {
+          "name": "Nutrient name (e.g., Nitrogen, Phosphorus, Potassium).",
+          "min": "Minimum concentration.",
+          "max": "Maximum tolerable concentration.",
+          "ideal": "Ideal range.",
+          "unit": "ppm or mg/kg",
+          "avoid": [
+            "Conditions of deficiency or toxicity."
+          ],
+          "corrective": {
+            "whenTooHigh": "Leach soil or reduce fertilizer input.",
+            "whenTooLow": "Apply appropriate nutrient supplement."
+          },
+          "tips": [
+            "Monitor leaf color and growth rate for nutrient balance."
+          ]
+        }
+      ],
+      "tips": [
+        "Perform soil tests annually; maintain organic matter content."
+      ]
+    },
+    "wind": {
+      "min": "Minimum beneficial airflow for pollination or drying.",
+      "max": "Maximum tolerable wind speed.",
+      "ideal": "Ideal wind velocity range.",
+      "unit": "km/h or m/s",
+      "corrective": {
+        "whenTooHigh": "Use windbreaks or barriers.",
+        "whenTooLow": "Increase air circulation if disease risk rises."
+      },
+      "avoid": [
+        "Strong winds during flowering or fruit set."
+      ],
+      "tips": [
+        "Install shelterbelts perpendicular to prevailing winds."
+      ]
+    }
+  },
+
+  "landPreparation": [
+    {
+      "processName": "Name of the land preparation process.",
+      "function": "Purpose of the process (e.g., weed removal, soil loosening).",
+      "advantages": [
+        "Benefits of performing this process."
+      ],
+      "disadvantages": [
+        "Possible drawbacks or limitations."
+      ],
+      "properties": [
+        {
+          "name": "Property name (e.g., soil tilth).",
+          "description": "Details of the property affected."
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tool or resource name.",
+          "description": "Description of the tool.",
+          "use": "When and how it is applied.",
+          "usage": "Instructions or dosage information."
+        }
+      ],
+      "tips": [
+        "Recommendations for optimal land preparation."
+      ],
+      "referenceImages": [
+        "URLs or filenames of images illustrating this process."
+      ]
+    }
+  ],
+
+  "planting": [
+    {
+      "name": "Stage or method name.",
+      "description": "Description of the planting process.",
+      "advantages": [
+        "Benefits of this planting approach."
+      ],
+      "disadvantages": [
+        "Drawbacks or limitations."
+      ],
+      "supplements": [
+        {
+          "name": "Supplement name (e.g., fertilizer, bio-stimulant).",
+          "description": "Details about its use.",
+          "type": "Chemical, organic, or biological.",
+          "timeOfApplication": "When to apply.",
+          "frequencyOfApplication": "How often to apply.",
+          "quantityOfApplication": "Amount per plant or area.",
+          "unitOfMeasurement": "kg/ha, ml/L, etc.",
+          "symptoms": [
+            {
+              "partAffected": "Leaf, root, fruit, etc.",
+              "symptoms": [
+                "Visual indicators for deficiency or excess."
+              ]
+            }
+          ],
+          "use": "Purpose of the supplement.",
+          "usage": "Detailed application procedure.",
+          "referenceImages": [
+            "Visual examples."
+          ]
+        }
+      ],
+      "diseases": [
+        {
+          "name": "Disease name.",
+          "description": "Details about its cause and impact.",
+          "cause": "Fungal, bacterial, viral, or environmental.",
+          "symptoms": [
+            "Observable signs of infection or stress."
+          ],
+          "cure": [
+            {
+              "name": "Treatment or control measure.",
+              "description": "Explanation of the treatment.",
+              "use": "Purpose of use.",
+              "usage": "Application instructions.",
+              "warnings": [
+                "Precautionary notes."
+              ],
+              "sideEffects": [
+                "Possible side effects or crop impact."
+              ],
+              "tips": [
+                "Additional guidance for prevention."
+              ],
+              "referenceImages": [
+                "Images of affected or treated plants."
+              ]
+            }
+          ],
+          "referenceImages": [
+            "Visuals of disease symptoms."
+          ]
+        }
+      ],
+      "precautions": [
+        "Precautionary actions during planting."
+      ],
+      "plantingPattern": [
+        {
+          "isTraditional": true,
+          "rowDistance": "Distance between rows (cm).",
+          "plantDistance": "Distance between plants (cm).",
+          "plantPopulationPerAcre": "Expected density per acre.",
+          "issues": [
+            "Common spacing problems."
+          ],
+          "regionalAdjustments": [
+            {
+              "regionName": "Region name.",
+              "condition": "Specific condition (e.g., high rainfall).",
+              "adjustment": "Recommended change in spacing or method."
+            }
+          ],
+          "tips": [
+            "Plant spacing recommendations."
+          ],
+          "referenceImages": [
+            "Visual examples of correct planting patterns."
+          ]
+        }
+      ],
+      "season": {
+        "name": "Planting season name.",
+        "timeOfPlanting": "Recommended planting window.",
+        "timeOfFlowering": "Expected flowering period.",
+        "timeOfHarvest": "Expected harvest window.",
+        "reasons": [
+          "Rationale for selecting this season."
+        ],
+        "advantages": [
+          "Seasonal benefits."
+        ],
+        "disadvantages": [
+          "Seasonal drawbacks."
+        ],
+        "avoid": [
+          "Conditions to avoid."
+        ],
+        "tips": [
+          "Advice for season-specific planting management."
+        ]
+      },
+      "properties": [
+        {
+          "name": "Property name.",
+          "description": "Explanation of relevance."
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tool name.",
+          "description": "Description of use.",
+          "use": "When to use it.",
+          "usage": "Instructions for use."
+        }
+      ],
+      "tips": [
+        "Best practices for planting."
+      ],
+      "referenceImages": [
+        "Images illustrating planting steps."
+      ]
+    }
+  ],
+
+  "irrigation": [
+    {
+      "name": "Irrigation type or stage.",
+      "description": "Details about irrigation system or schedule.",
+      "advantages": [
+        "Benefits of this irrigation method."
+      ],
+      "disadvantages": [
+        "Drawbacks or resource limitations."
+      ],
+      "tips": [
+        "Scheduling and water efficiency tips."
+      ],
+      "waterUsage": "Total volume used per hectare.",
+      "waterQuality": "Water quality requirements.",
+      "intervals": "Frequency of irrigation.",
+      "use": "Purpose of irrigation at this stage.",
+      "usage": "Detailed watering instructions.",
+      "toolsAndResources": [
+        {
+          "name": "Tool name (e.g., drip line).",
+          "description": "Description of tool.",
+          "use": "Use context.",
+          "usage": "Setup or maintenance details."
+        }
+      ],
+      "referenceImages": [
+        "Images showing irrigation layout or practice."
+      ]
+    }
+  ],
+
+  "plantCare": [
+    {
+      "name": "Plant care process name.",
+      "description": "Process or stage details.",
+      "advantages": [
+        "Benefits of performing this care step."
+      ],
+      "disadvantages": [
+        "Drawbacks or limitations."
+      ],
+      "precautions": [
+        "Safety or crop protection notes."
+      ],
+      "diseases": [
+        {
+          "name": "Disease name.",
+          "description": "Overview and impact.",
+          "cause": "Cause or pathogen type.",
+          "symptoms": [
+            "Symptoms or visual signs."
+          ],
+          "cure": [
+            {
+              "name": "Cure or treatment name.",
+              "description": "Treatment description.",
+              "use": "Purpose of treatment.",
+              "usage": "Application instructions.",
+              "warnings": [
+                "Warnings or safety guidelines."
+              ],
+              "sideEffects": [
+                "Potential negative effects."
+              ],
+              "tips": [
+                "Advice for effective control."
+              ],
+              "referenceImages": [
+                "Images of disease and treatment."
+              ]
+            }
+          ],
+          "referenceImages": [
+            "Disease images."
+          ]
+        }
+      ],
+      "supplements": [
+        {
+          "name": "Supplement name.",
+          "description": "Details about its use.",
+          "type": "Chemical, organic, biological.",
+          "grade": "Concentration or formulation.",
+          "timeOfApplication": "When to apply.",
+          "frequencyOfApplication": "How often to apply.",
+          "quantityOfApplication": "Amount to apply.",
+          "unitOfMeasurement": "kg/ha, L/ha, etc.",
+          "symptoms": [
+            {
+              "partAffected": "Plant part affected.",
+              "symptoms": [
+                "Observed symptoms."
+              ]
+            }
+          ],
+          "use": "Purpose of use.",
+          "usage": "Method of use.",
+          "toolsAndResources": [
+            {
+              "name": "Tool name.",
+              "description": "Tool details.",
+              "use": "Purpose.",
+              "usage": "How to use."
+            }
+          ],
+          "referenceImages": [
+            "Visual references."
+          ]
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tool name.",
+          "description": "Tool description.",
+          "use": "Purpose.",
+          "usage": "Usage instructions."
+        }
+      ],
+      "tips": [
+        "Best practices for plant care."
+      ],
+      "uses": "Intended result.",
+      "usage": "Execution details.",
+      "referenceImages": [
+        "Visuals of process."
+      ]
+    }
+  ],
+
+  "fruitCare": [
+    {
+      "name": "Fruit care stage or process.",
+      "description": "Description of actions or treatments.",
+      "advantages": [
+        "Benefits of performing fruit care."
+      ],
+      "disadvantages": [
+        "Possible drawbacks or challenges."
+      ],
+      "precautions": [
+        "Safety or timing notes."
+      ],
+      "diseases": [
+        {
+          "name": "Disease name.",
+          "description": "Overview of disease.",
+          "cause": "Pathogen or condition causing it.",
+          "symptoms": [
+            "Observable signs on fruit."
+          ],
+          "cure": [
+            {
+              "name": "Treatment name.",
+              "description": "Treatment explanation.",
+              "use": "Purpose of application.",
+              "usage": "Instructions for application.",
+              "warnings": [
+                "Safety or crop protection notes."
+              ],
+              "sideEffects": [
+                "Possible adverse outcomes."
+              ],
+              "tips": [
+                "Additional advice for management."
+              ],
+              "referenceImages": [
+                "Images illustrating condition or treatment."
+              ]
+            }
+          ],
+          "referenceImages": [
+            "Disease visuals."
+          ]
+        }
+      ],
+      "supplements": [
+        {
+          "name": "Supplement name.",
+          "description": "Explanation of role.",
+          "type": "Chemical or organic type.",
+          "grade": "Concentration or purity.",
+          "timeOfApplication": "When to apply.",
+          "frequencyOfApplication": "How often to apply.",
+          "quantityOfApplication": "Dosage or amount.",
+          "unitOfMeasurement": "kg/ha, L/ha, etc.",
+          "symptoms": [
+            {
+              "partAffected": "Fruit or leaf.",
+              "symptoms": [
+                "Observable nutrient deficiency symptoms."
+              ]
+            }
+          ],
+          "use": "Purpose of use.",
+          "usage": "Application details.",
+          "toolsAndResources": [
+            {
+              "name": "Tool name.",
+              "description": "Tool purpose.",
+              "use": "How it's used.",
+              "usage": "Detailed steps."
+            }
+          ],
+          "referenceImages": [
+            "Supplement images."
+          ]
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tool name.",
+          "description": "Tool description.",
+          "use": "Purpose.",
+          "usage": "How to use."
+        }
+      ],
+      "tips": [
+        "Fruit care tips and timing advice."
+      ],
+      "uses": "Desired effect.",
+      "usage": "Execution details.",
+      "referenceImages": [
+        "Visual references for process."
+      ]
+    }
+  ],
+
+  "harvesting": [
+    {
+      "name": "Harvesting stage or method.",
+      "description": "Explanation of how and when to harvest.",
+      "precautions": [
+        "Safety and quality precautions."
+      ],
+      "tips": [
+        "Advice for better yield or reduced loss."
+      ],
+      "diseases": [
+        {
+          "name": "Post-harvest disease name.",
+          "description": "Disease details.",
+          "cause": "Pathogen or environmental cause.",
+          "symptoms": [
+            "Symptoms on harvested product."
+          ],
+          "cure": [
+            {
+              "name": "Treatment name.",
+              "description": "Cure details.",
+              "use": "Purpose.",
+              "usage": "How to apply.",
+              "warnings": [
+                "Precautionary notes."
+              ],
+              "sideEffects": [
+                "Possible issues."
+              ],
+              "tips": [
+                "Best handling practices."
+              ],
+              "referenceImages": [
+                "Image references."
+              ]
+            }
+          ],
+          "referenceImages": [
+            "Disease images."
+          ]
+        }
+      ],
+      "maturityIndex": [
+        "Indicators to determine maturity."
+      ],
+      "referenceImages": [
+        "Harvesting visuals."
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tool name.",
+          "description": "Tool description.",
+          "use": "Purpose.",
+          "usage": "Usage method."
+        }
+      ],
+      "qualityGradingAndControl": [
+        {
+          "name": "Grading criterion.",
+          "description": "Explanation of quality control process."
+        }
+      ]
+    }
+  ],
+
+  "postHarvesting": [
+    "Steps taken after harvest (cleaning, sorting, packing, etc.)."
+  ],
+
+  "storage": [
+    {
+      "name": "Storage stage or method.",
+      "description": "Explanation of storage method.",
+      "advantages": [
+        "Benefits of storage technique."
+      ],
+      "disadvantages": [
+        "Drawbacks of this method."
+      ],
+      "tips": [
+        "Storage optimization advice."
+      ],
+      "referenceImages": [
+        "Storage visuals."
+      ]
+    }
+  ],
+
+  "fruitProcessing": [
+    {
+      "name": "Processing step or type.",
+      "description": "Description of fruit processing activity.",
+      "advantages": [
+        "Benefits of processing."
+      ],
+      "disadvantages": [
+        "Challenges or costs."
+      ],
+      "tips": [
+        "Advice for improved processing efficiency."
+      ]
+    }
+  ],
+
+  "transportation": [
+    {
+      "name": "Transportation method or process.",
+      "description": "Description of how produce is transported.",
+      "precautions": [
+        "Precautions for maintaining quality."
+      ],
+      "advantages": [
+        "Advantages of transportation method."
+      ],
+      "disadvantages": [
+        "Drawbacks of this transport method."
+      ],
+      "tips": [
+        "Handling and safety tips."
+      ]
+    }
+  ],
+
+  "exporting": [
+    {
+      "name": "Export process or stage.",
+      "description": "Export procedure explanation.",
+      "precautions": [
+        "Precautionary steps for export readiness."
+      ],
+      "tips": [
+        "Export and documentation advice."
+      ],
+      "referenceImages": [
+        "Images related to export process."
+      ]
+    }
+  ],
+
+  "metadata": {
+    "version": "1.2",
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  }
+}

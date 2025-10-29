@@ -1,0 +1,528 @@
+# Comparison Report
+
+## Summary
+
+- total_json_fields: 182
+- included_fields: 74
+- excluded_fields: 108
+- total_paragraphs: 1
+- paragraphs_not_represented: 0
+
+## Included JSON fields (found in text)
+
+- cropName: 'Banana'
+  - snippet: ﻿Banana is a vital crop, but banana pests and banana diseases can severely impact banan
+- location.climateType: 'warm, humid'
+  - snippet: t suck plant sap, leading to scarring and reduced fruit quality. They thrive in warm, humid conditions and are a major threat to banana crops. Symptoms and Damage ● Early 
+- idealConditions.soil.ph.unit: 'pH'
+  - snippet: List of Banana Diseases & Pests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anth
+- metadata.notes: 'Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context.'
+  - snippet: or banana plant diseases and pests treatment methods to protect your farm. List of Banana Diseases & Pests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids i
+- diseases[0].name: 'Panama Wilt Disease'
+  - snippet: ests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anthracnose Disease ● Yellow Leaf Disease Pest M
+- diseases[0].description: 'a deadly fungal disease in bananas caused by Fusarium oxysporum f. sp. cubense, leading to wilting and plant death. It spreads through soil and water, making prevention crucial.'
+  - snippet: ost aphids Disease Management in Banana 1. Panama Wilt Disease Panama Wilt is a deadly fungal disease in bananas caused by Fusarium oxysporum f. sp. cubense, leading 
+- diseases[0].cause: 'fungal'
+  - snippet: ana diseases can severely impact banana production. From destructive insects to fungal infections, these threats can reduce yield and quality. Proper banana pest and 
+- diseases[0].symptoms[0]: 'Leaf Yellowing & Wilting - Starts from older leaves and spreads to younger ones.'
+  - snippet: preads through soil and water, making prevention crucial. Symptoms and Damage ● Leaf Yellowing & Wilting - Starts from older leaves and spreads to younger ones. ● Uneven Wilting - Some leaves wilt more than others. ● Brittle Leaves - Leaves
+- diseases[0].symptoms[1]: 'Uneven Wilting - Some leaves wilt more than others.'
+  - snippet: f Yellowing & Wilting - Starts from older leaves and spreads to younger ones. ● Uneven Wilting - Some leaves wilt more than others. ● Brittle Leaves - Leaves become dry and snap easily. ● Pseudostem Splitting - 
+- diseases[0].symptoms[2]: 'Brittle Leaves - Leaves become dry and snap easily.'
+  - snippet: preads to younger ones. ● Uneven Wilting - Some leaves wilt more than others. ● Brittle Leaves - Leaves become dry and snap easily. ● Pseudostem Splitting - The stalk may crack open. ● Plant Death - Disease even
+- diseases[0].symptoms[3]: 'Pseudostem Splitting - The stalk may crack open.'
+  - snippet:  wilt more than others. ● Brittle Leaves - Leaves become dry and snap easily. ● Pseudostem Splitting - The stalk may crack open. ● Plant Death - Disease eventually kills the entire plant Control Measures ● Us
+- diseases[0].symptoms[4]: 'Plant Death - Disease eventually kills the entire plant'
+  - snippet: ecome dry and snap easily. ● Pseudostem Splitting - The stalk may crack open. ● Plant Death - Disease eventually kills the entire plant Control Measures ● Use resistant varieties to prevent banana plant disease ● Im
+- diseases[0].cure[0].name: 'Use resistant varieties'
+  - snippet: n. ● Plant Death - Disease eventually kills the entire plant Control Measures ● Use resistant varieties to prevent banana plant disease ● Improve drainage to reduce fungal spread ● Ap
+- diseases[0].cure[0].use: 'to prevent banana plant disease'
+  - snippet: se eventually kills the entire plant Control Measures ● Use resistant varieties to prevent banana plant disease ● Improve drainage to reduce fungal spread ● Apply Katyayani Pseudomonas fluore
+- diseases[0].cure[1].name: 'Improve drainage'
+  - snippet: nt Control Measures ● Use resistant varieties to prevent banana plant disease ● Improve drainage to reduce fungal spread ● Apply Katyayani Pseudomonas fluorescence, a bio-fungi
+- diseases[0].cure[1].use: 'to reduce fungal spread'
+  - snippet: es ● Use resistant varieties to prevent banana plant disease ● Improve drainage to reduce fungal spread ● Apply Katyayani Pseudomonas fluorescence, a bio-fungicide 2. Sigatoka Leaf Sp
+- diseases[0].cure[2].name: 'Katyayani Pseudomonas fluorescence'
+  - snippet: prevent banana plant disease ● Improve drainage to reduce fungal spread ● Apply Katyayani Pseudomonas fluorescence, a bio-fungicide 2. Sigatoka Leaf Spot Disease This banana sigatoka disease is 
+- diseases[0].cure[2].description: 'a bio-fungicide'
+  - snippet: ve drainage to reduce fungal spread ● Apply Katyayani Pseudomonas fluorescence, a bio-fungicide 2. Sigatoka Leaf Spot Disease This banana sigatoka disease is a fungal infectio
+- diseases[1].name: 'Sigatoka Leaf Spot Disease'
+  - snippet:  Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anthracnose Disease ● Yellow Leaf Disease Pest Management in Banana 1. Thrips
+- diseases[1].description: 'a fungal infection that affects banana leaves, reducing photosynthesis and overall yield.'
+  - snippet: ana diseases can severely impact banana production. From destructive insects to fungal infections, these threats can reduce yield and quality. Proper banana pest and 
+- diseases[1].cause: 'fungal'
+  - snippet: ana diseases can severely impact banana production. From destructive insects to fungal infections, these threats can reduce yield and quality. Proper banana pest and 
+- diseases[1].symptoms[0]: 'Black Sigatoka: Reddish-brown flecks turn into dark streaks, causing leaf die-off.'
+  - snippet: ection that affects banana leaves, reducing photosynthesis and overall yield. ● Black Sigatoka: Reddish-brown flecks turn into dark streaks, causing leaf die-off. ● Yellow Sigatoka: Yellow streaks near leaf edges expand, leading to defoliatio
+- diseases[1].symptoms[1]: 'Yellow Sigatoka: Yellow streaks near leaf edges expand, leading to defoliation.'
+  - snippet:  Sigatoka: Reddish-brown flecks turn into dark streaks, causing leaf die-off. ● Yellow Sigatoka: Yellow streaks near leaf edges expand, leading to defoliation. Control Measures ● Remove and destroy infected leaves ● Spray Katyayani Boost (
+- diseases[1].cure[0].name: 'Remove and destroy infected leaves'
+  - snippet: llow streaks near leaf edges expand, leading to defoliation. Control Measures ● Remove and destroy infected leaves ● Spray Katyayani Boost ( Propiconazole 25% EC ) to prevent fungal spread ● Imp
+- diseases[1].cure[1].name: 'Katyayani Boost ( Propiconazole 25 % EC )'
+  - snippet: External damage lowers appeal, causing market rejection. Control Measures ● Use Katyayani Imd-178 Imidacloprid 17.8% SL, an effective insecticide for banana plants recom
+- diseases[1].cure[1].use: 'to prevent fungal spread'
+  - snippet: ve and destroy infected leaves ● Spray Katyayani Boost ( Propiconazole 25% EC ) to prevent fungal spread ● Improve field ventilation 3. Anthracnose Disease 3. Anthracnose Disease Anthr
+- diseases[1].cure[2].name: 'Improve field ventilation'
+  - snippet: ves ● Spray Katyayani Boost ( Propiconazole 25% EC ) to prevent fungal spread ● Improve field ventilation 3. Anthracnose Disease 3. Anthracnose Disease Anthracnose is a banana major dis
+- diseases[2].name: 'Anthracnose Disease'
+  - snippet:  Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anthracnose Disease ● Yellow Leaf Disease Pest Management in Banana 1. Thrips in Banana Thrips are 
+- diseases[2].description: 'a banana major disease that affects both leaves and fruits, causing severe economic losses for farmers.'
+  - snippet: ﻿Banana is a vital crop, but banana pests and banana diseases can severely impact banan
+- diseases[2].symptoms[0]: 'Dark, sunken lesions on leaves, stems, fruits, or flowers'
+  - snippet: s and fruits, causing severe economic losses for farmers. Symptoms and Damage ● Dark, sunken lesions on leaves, stems, fruits, or flowers ● Blight of leaves and shoots ● Dieback of twigs and branches ● Premature defol
+- diseases[2].symptoms[1]: 'Blight of leaves and shoots'
+  - snippet: mptoms and Damage ● Dark, sunken lesions on leaves, stems, fruits, or flowers ● Blight of leaves and shoots ● Dieback of twigs and branches ● Premature defoliation ● Stunted growth, Reduc
+- diseases[2].symptoms[2]: 'Dieback of twigs and branches'
+  - snippet: en lesions on leaves, stems, fruits, or flowers ● Blight of leaves and shoots ● Dieback of twigs and branches ● Premature defoliation ● Stunted growth, Reduced fruit yield Control Measures 
+- diseases[2].symptoms[3]: 'Premature defoliation'
+  - snippet: its, or flowers ● Blight of leaves and shoots ● Dieback of twigs and branches ● Premature defoliation ● Stunted growth, Reduced fruit yield Control Measures ● Apply Katyayani Samart
+- diseases[2].symptoms[4]: 'Stunted growth, Reduced fruit yield'
+  - snippet:  of leaves and shoots ● Dieback of twigs and branches ● Premature defoliation ● Stunted growth, Reduced fruit yield Control Measures ● Apply Katyayani Samartha (Carbendazim 12 % + Mancozeb 63 % W
+- diseases[2].cure[0].name: 'Katyayani Samartha (Carbendazim 12 % + Mancozeb 63 % WP)'
+  - snippet: ture defoliation ● Stunted growth, Reduced fruit yield Control Measures ● Apply Katyayani Samartha (Carbendazim 12 % + Mancozeb 63 % WP), a powerful fungicide ● Ensure proper air circulation in plantations ● Harvest 
+- diseases[2].cure[0].description: 'a powerful fungicide'
+  - snippet: trol Measures ● Apply Katyayani Samartha (Carbendazim 12 % + Mancozeb 63 % WP), a powerful fungicide ● Ensure proper air circulation in plantations ● Harvest fruits at the correct 
+- diseases[2].cure[1].name: 'Ensure proper air circulation in plantations'
+  - snippet: atyayani Samartha (Carbendazim 12 % + Mancozeb 63 % WP), a powerful fungicide ● Ensure proper air circulation in plantations ● Harvest fruits at the correct maturity stage 4. Yellow Leaf Disease This vira
+- diseases[2].cure[2].name: 'Harvest fruits at the correct maturity stage'
+  - snippet: 63 % WP), a powerful fungicide ● Ensure proper air circulation in plantations ● Harvest fruits at the correct maturity stage 4. Yellow Leaf Disease This viral disease weakens plants and significantly redu
+- diseases[3].name: 'Yellow Leaf Disease'
+  - snippet: ases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anthracnose Disease ● Yellow Leaf Disease Pest Management in Banana 1. Thrips in Banana Thrips are tiny insects that suck
+- diseases[3].description: 'This viral disease weakens plants and significantly reduces productivity, making it a serious concern for banana farmers.'
+  - snippet: pest and disease management ensures healthier crops and better productivity. In this guide, we will discuss major banana plant diseases and pests treatment methods 
+- diseases[3].cause: 'viral'
+  - snippet:  Banana Aphids are small, soft-bodied insects that feed on plant sap and spread viral diseases, including banana yellow leaf disease. Symptoms and Damage ● Distorted
+- diseases[3].symptoms[0]: 'Yellowing of leaves from edges inward'
+  - snippet: uctivity, making it a serious concern for banana farmers. Symptoms and Damage ● Yellowing of leaves from edges inward ● Reduced growth and fruit production Control Measures ● Use virus-free plantin
+- diseases[3].symptoms[1]: 'Reduced growth and fruit production'
+  - snippet: r banana farmers. Symptoms and Damage ● Yellowing of leaves from edges inward ● Reduced growth and fruit production Control Measures ● Use virus-free planting materials, like NPK 19:19:19 Fertili
+- diseases[3].cure[0].name: 'Use virus-free planting materials'
+  - snippet: aves from edges inward ● Reduced growth and fruit production Control Measures ● Use virus-free planting materials, like NPK 19:19:19 Fertilize Remove and destroy infected plants Conclusion Mana
+- diseases[3].cure[0].description: 'like NPK 19:19:19 Fertilize'
+  - snippet: owth and fruit production Control Measures ● Use virus-free planting materials, like NPK 19:19:19 Fertilize Remove and destroy infected plants Conclusion Managing banana pests and disease
+- diseases[3].cure[1].name: 'Remove and destroy infected plants'
+  - snippet: ntrol Measures ● Use virus-free planting materials, like NPK 19:19:19 Fertilize Remove and destroy infected plants Conclusion Managing banana pests and diseases is essential for maximizing banan
+- pests[0].name: 'Thrips in Banana'
+  - snippet: treatment methods to protect your farm. List of Banana Diseases & Pests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatok
+- pests[0].description: 'tiny insects that suck plant sap, leading to scarring and reduced fruit quality. They thrive in warm, humid conditions and are a major threat to banana crops.'
+  - snippet:  ● Yellow Leaf Disease Pest Management in Banana 1. Thrips in Banana Thrips are tiny insects that suck plant sap, leading to scarring and reduced fruit quality. The
+- pests[0].symptoms[0]: 'Early Signs: Small, water-soaked spots on fruit due to thrips feeding.'
+  - snippet:  humid conditions and are a major threat to banana crops. Symptoms and Damage ● Early Signs: Small, water-soaked spots on fruit due to thrips feeding. ● Discoloration: Rusty-red or dark brown rough, scabby patches. ● Severe Cases:
+- pests[0].symptoms[1]: 'Discoloration: Rusty-red or dark brown rough, scabby patches.'
+  - snippet: mage ● Early Signs: Small, water-soaked spots on fruit due to thrips feeding. ● Discoloration: Rusty-red or dark brown rough, scabby patches. ● Severe Cases: Fruit skin may crack or split. ● Market Impact: External damage
+- pests[0].symptoms[2]: 'Severe Cases: Fruit skin may crack or split.'
+  - snippet: rips feeding. ● Discoloration: Rusty-red or dark brown rough, scabby patches. ● Severe Cases: Fruit skin may crack or split. ● Market Impact: External damage lowers appeal, causing market rejection. Contr
+- pests[0].symptoms[3]: 'Market Impact: External damage lowers appeal, causing market rejection.'
+  - snippet: k brown rough, scabby patches. ● Severe Cases: Fruit skin may crack or split. ● Market Impact: External damage lowers appeal, causing market rejection. Control Measures ● Use Katyayani Imd-178 Imidacloprid 17.8% SL, an effective in
+- pests[0].cure[0].name: 'Katyayani Imd-178 Imidacloprid 17.8% SL'
+  - snippet: External damage lowers appeal, causing market rejection. Control Measures ● Use Katyayani Imd-178 Imidacloprid 17.8% SL, an effective insecticide for banana plants recommended for thrips ● Maintain f
+- pests[0].cure[0].description: 'an effective insecticide for banana plants'
+  - snippet: rket rejection. Control Measures ● Use Katyayani Imd-178 Imidacloprid 17.8% SL, an effective insecticide for banana plants recommended for thrips ● Maintain field hygiene and remove affected plant parts
+- pests[0].cure[0].use: 'recommended for thrips'
+  - snippet: ayani Imd-178 Imidacloprid 17.8% SL, an effective insecticide for banana plants recommended for thrips ● Maintain field hygiene and remove affected plant parts 2. Cutworm in Banana C
+- pests[0].cure[1].name: 'Maintain field hygiene and remove affected plant parts'
+  - snippet: d 17.8% SL, an effective insecticide for banana plants recommended for thrips ● Maintain field hygiene and remove affected plant parts 2. Cutworm in Banana Cutworms are the larvae of various moth species that cut t
+- pests[1].name: 'Cutworm in Banana'
+  - snippet: o protect your farm. List of Banana Diseases & Pests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease 
+- pests[1].description: 'the larvae of various moth species that cut the stems of young banana plants at the soil surface, leading to plant wilting, damage, and even death'
+  - snippet: verely impact banana production. From destructive insects to fungal infections, these threats can reduce yield and quality. Proper banana pest and disease manageme
+- pests[1].symptoms[0]: 'Wilting and death of seedlings'
+  - snippet: surface, leading to plant wilting, damage, and even death Symptoms and Damage ● Wilting and death of seedlings ● Stems cut off at the base ● Holes in leaves ● Presence of cutworms in the soi
+- pests[1].symptoms[1]: 'Stems cut off at the base'
+  - snippet: , damage, and even death Symptoms and Damage ● Wilting and death of seedlings ● Stems cut off at the base ● Holes in leaves ● Presence of cutworms in the soil Control Measures ● Use Kat
+- pests[1].symptoms[2]: 'Holes in leaves'
+  - snippet: ptoms and Damage ● Wilting and death of seedlings ● Stems cut off at the base ● Holes in leaves ● Presence of cutworms in the soil Control Measures ● Use Katyayani Fluben (Flu
+- pests[1].symptoms[3]: 'Presence of cutworms in the soil'
+  - snippet:  Wilting and death of seedlings ● Stems cut off at the base ● Holes in leaves ● Presence of cutworms in the soil Control Measures ● Use Katyayani Fluben (Flubendiamide 39.35% SC) for controlli
+- pests[1].cure[0].name: 'Katyayani Fluben (Flubendiamide 39.35% SC)'
+  - snippet: ase ● Holes in leaves ● Presence of cutworms in the soil Control Measures ● Use Katyayani Fluben (Flubendiamide 39.35% SC) for controlling banana tree pests ● Avoid excessive mulch, which provides a hid
+- pests[1].cure[0].use: 'for controlling banana tree pests'
+  - snippet: s in the soil Control Measures ● Use Katyayani Fluben (Flubendiamide 39.35% SC) for controlling banana tree pests ● Avoid excessive mulch, which provides a hiding place 3. Aphids in Banana Aphi
+- pests[1].cure[1].name: 'Avoid excessive mulch'
+  - snippet:  Katyayani Fluben (Flubendiamide 39.35% SC) for controlling banana tree pests ● Avoid excessive mulch, which provides a hiding place 3. Aphids in Banana Aphids are small, soft-bodie
+- pests[1].cure[1].description: 'which provides a hiding place'
+  - snippet: endiamide 39.35% SC) for controlling banana tree pests ● Avoid excessive mulch, which provides a hiding place 3. Aphids in Banana Aphids are small, soft-bodied insects that feed on plant sa
+- pests[2].name: 'Aphids in Banana'
+  - snippet:  List of Banana Diseases & Pests Pests ● Thrips in Banana ● Cutworm in Banana ● Aphids in Banana Diseases ● Panama Wilt Disease ● Sigatoka Leaf Spot Disease ● Anthracnose Disea
+- pests[2].description: 'small, soft-bodied insects that feed on plant sap and spread viral diseases, including banana yellow leaf disease.'
+  - snippet: ions and are a major threat to banana crops. Symptoms and Damage ● Early Signs: Small, water-soaked spots on fruit due to thrips feeding. ● Discoloration: Rusty-red 
+- pests[2].symptoms[0]: 'Distorted Leaves: Aphids suck sap, causing curling, crinkling, or stunted growth.'
+  - snippet: ead viral diseases, including banana yellow leaf disease. Symptoms and Damage ● Distorted Leaves: Aphids suck sap, causing curling, crinkling, or stunted growth. ● Yellowing Leaves: Leaves turn pale green or yellow due to sap loss. ● Sticky 
+- pests[2].symptoms[1]: 'Yellowing Leaves: Leaves turn pale green or yellow due to sap loss.'
+  - snippet: orted Leaves: Aphids suck sap, causing curling, crinkling, or stunted growth. ● Yellowing Leaves: Leaves turn pale green or yellow due to sap loss. ● Sticky Honeydew: Aphids excrete a sugary substance, attracting ants. ● Sooty 
+- pests[2].symptoms[2]: 'Sticky Honeydew: Aphids excrete a sugary substance, attracting ants.'
+  - snippet: growth. ● Yellowing Leaves: Leaves turn pale green or yellow due to sap loss. ● Sticky Honeydew: Aphids excrete a sugary substance, attracting ants. ● Sooty Mold: Black fungus grows on honeydew, blocking sunlight. Control Measur
+- pests[2].symptoms[3]: 'Sooty Mold: Black fungus grows on honeydew, blocking sunlight.'
+  - snippet:  loss. ● Sticky Honeydew: Aphids excrete a sugary substance, attracting ants. ● Sooty Mold: Black fungus grows on honeydew, blocking sunlight. Control Measures ● Spray Katyayani Nashak (Fipronil 40 % + Imidacloprid 40 % wg
+- pests[2].cure[0].name: 'Spray Katyayani Nashak (Fipronil 40 % + Imidacloprid 40 % wg) or neem-based solutions'
+  - snippet: oty Mold: Black fungus grows on honeydew, blocking sunlight. Control Measures ● Spray Katyayani Nashak (Fipronil 40 % + Imidacloprid 40 % wg) or neem-based solutions ● Remove weeds that host aphids Disease Management in Banana 1. Panama Wilt Dis
+- pests[2].cure[1].name: 'Remove weeds that host aphids'
+  - snippet: tyayani Nashak (Fipronil 40 % + Imidacloprid 40 % wg) or neem-based solutions ● Remove weeds that host aphids Disease Management in Banana 1. Panama Wilt Disease Panama Wilt is a deadly fun
+
+## Excluded JSON fields (NOT found in text) with reasons
+
+- variety: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.country: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.stateOrProvince: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.districtOrCounty: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.latitude: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.longitude: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.altitude: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.soilRegion: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.rainfallPattern: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- location.notes: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.name: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.startMonth: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.endMonth: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.durationDays: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.temperatureRange.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.temperatureRange.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.temperatureRange.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.temperatureRange.unit: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.rainfallRange.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.rainfallRange.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.rainfallRange.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- season.rainfallRange.unit: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.unit: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.growthInitiation: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.peakGrowth: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.growthDecline: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.corrective.whenTooHigh: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- temperature.corrective.whenTooLow: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.unit: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.growthInitiation: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.peakGrowth: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.growthDecline: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.corrective.whenTooHigh: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.temperature.corrective.whenTooLow: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.unit: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.corrective.whenTooHigh: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.humidity.corrective.whenTooLow: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.name: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.ph.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.ph.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.ph.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.ph.corrective.whenTooHigh: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.ph.corrective.whenTooLow: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.drainage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.fertility: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.moisture: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.soil.texture: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.wind.min: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.wind.max: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.wind.ideal: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.wind.unit: 'km/h'
+  - reason: no_match
+    - detail: no token, numeric, or substring match found
+- idealConditions.wind.corrective.whenTooHigh: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- idealConditions.wind.corrective.whenTooLow: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- metadata.version._raw: '1.2'
+  - reason: no_match
+    - detail: no token, numeric, or substring match found
+- metadata.version.value: 1.2
+  - reason: no_match
+    - detail: no token, numeric, or substring match found
+- metadata.lastUpdated: '2025-10-27'
+  - reason: no_match
+    - detail: no token, numeric, or substring match found
+- metadata.author: 'Prompt Optimizer'
+  - reason: no_match
+    - detail: no token, numeric, or substring match found
+- diseases[0].cure[0].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[0].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[0].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[0].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[0].cure[2].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[0].cure[2].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[0].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[0].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[2].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[2].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[1].cure[2].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cause: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[0].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[1].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[2].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[2].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[2].cure[2].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[3].cure[0].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[3].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[3].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[3].cure[1].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- diseases[3].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[0].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[0].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[0].cure[1].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[0].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[1].cure[0].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[1].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[1].cure[1].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[1].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[0].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[0].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[0].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[1].description: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[1].use: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+- pests[2].cure[1].usage: None
+  - reason: null_value_in_json
+    - detail: JSON value is null
+
+## Paragraph-level analysis (paragraphs not represented in JSON with reasons)
+
+
+## Proper noun phrases present in text but not in JSON values
+
+- Control Measures (count: 7)
+- Symptoms (count: 6)
+- List (count: 1)
+- Banana Diseases (count: 1)
+- Pests
+Pests (count: 1)
+- Banana
+Diseases (count: 1)
+- Yellow Leaf Disease
+Pest Management (count: 1)
+- Banana
+Thrips (count: 1)
+- Use Katyayani Imd (count: 1)
+- Banana
+Cutworms (count: 1)
+- Use Katyayani Fluben (count: 1)
+- Banana
+Aphids (count: 1)
+- Disease Management (count: 1)
+- Panama Wilt Disease
+Panama Wilt (count: 1)
+- Apply Katyayani Pseudomonas (count: 1)
+- Sigatoka Leaf Spot Disease
+This (count: 1)
+- Spray Katyayani Boost (count: 1)
+- Anthracnose Disease
+Anthracnose (count: 1)
+- Apply Katyayani Samartha (count: 1)
+- Yellow Leaf Disease
+This (count: 1)
+- Fertilize
+Remove (count: 1)
+- Conclusion
+Managing (count: 1)
+- Regular (count: 1)

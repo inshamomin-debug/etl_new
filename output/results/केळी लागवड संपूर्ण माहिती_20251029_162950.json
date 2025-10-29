@@ -1,0 +1,302 @@
+{
+  "cropName": "banana",
+  "location": {
+    "country": "Maharashtra",
+    "stateOrProvince": "Maharashtra",
+    "notes": "Focusing on key aspects for Maharashtra."
+  },
+  "season": {
+    "name": "Common Seasons in Maharashtra",
+    "startMonth": "June",
+    "endMonth": "July",
+    "advantages": [
+      "To get the best market rates, the speaker highly recommends planting between December and January.",
+      "This timing leads to excellent yields and better prices in the market."
+    ],
+    "tips": [
+      "If you have access to water, you can plant bananas at any time of the year."
+    ]
+  },
+  "temperature": {
+    "ideal": {
+      "value": 32.0,
+      "unit": "C",
+      "_raw": "25 to 32°C"
+    },
+    "unit": "°C",
+    "peakGrowth": {
+      "value": 30.0,
+      "unit": "C",
+      "_raw": "29 to 30°C"
+    }
+  },
+  "properties": [
+    "Bananas are a tropical crop that thrive in a hot and humid climate."
+  ],
+  "idealConditions": {
+    "temperature": {
+      "ideal": {
+        "value": 28.0,
+        "unit": "C",
+        "_raw": "23 to 28°C"
+      },
+      "unit": "°C",
+      "growthInitiation": {
+        "_raw": "23",
+        "value": 23.0
+      },
+      "peakGrowth": {
+        "_raw": "29",
+        "value": 29.0
+      },
+      "growthDecline": {
+        "_raw": "32",
+        "value": 32.0
+      },
+      "tips": [
+        {
+          "value": 28.0,
+          "unit": "C",
+          "_raw": "An optimal temperature is 23 to 28°C For Leaf Growth."
+        },
+        {
+          "value": 30.0,
+          "unit": "C",
+          "_raw": "The best temperature is 29 to 30°C For Fruit Bunch Growth."
+        },
+        {
+          "value": 32.0,
+          "unit": "C",
+          "_raw": "A temperature range of 25 to 32°C is excellent for the crop."
+        }
+      ]
+    },
+    "soil": {
+      "ph": {
+        "min": {
+          "_raw": "6.5",
+          "value": 6.5
+        },
+        "max": {
+          "_raw": "7.5",
+          "value": 7.5
+        },
+        "ideal": "6.5 and 7.5",
+        "unit": "pH"
+      },
+      "drainage": "Good Drainage",
+      "fertility": "nutrient-hungry",
+      "nutrientProfile": [
+        {
+          "name": "Nitrogen (N)",
+          "ideal": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "unit": "kg"
+        },
+        {
+          "name": "Phosphorus (P)",
+          "ideal": {
+            "_raw": "70",
+            "value": 70.0
+          },
+          "unit": "kg"
+        },
+        {
+          "name": "Potassium (K)",
+          "ideal": {
+            "_raw": "250",
+            "value": 250.0
+          },
+          "unit": "kg"
+        }
+      ],
+      "tips": [
+        "For a successful banana crop, the soil should have Good Drainage: The land should not hold water.",
+        "Rich Organic Matter: An organic carbon content of 0.5% to 1% is ideal.",
+        "Balanced pH: The soil pH should be between 6.5 and 7.5.",
+        "Good Microbial Activity: A high population of beneficial microorganisms is important.",
+        "To verify these conditions, it is essential to get a soil test done."
+      ]
+    }
+  },
+  "landPreparation": [
+    {
+      "processName": "Bed Preparation",
+      "properties": [
+        {
+          "name": "Bed Dimensions",
+          "description": "The ideal height and width of the planting beds depend on the soil type"
+        }
+      ],
+      "tips": [
+        "Heavy Soil: A bed height of 11 inches is recommended.",
+        "Calcareous (Chunakhad) Soil: A bed height of 9 inches is suitable.",
+        "Light, Murum Soil: A bed height of 6 inches is sufficient.",
+        "The width of the top of the bed should be 2.5 to 3 feet across all soil types."
+      ]
+    }
+  ],
+  "planting": [
+    {
+      "name": "Planting Method",
+      "description": "The proper technique for planting.",
+      "season": {
+        "name": "Common Seasons in Maharashtra",
+        "timeOfPlanting": "June-July",
+        "advantages": [
+          "To get the best market rates, the speaker highly recommends planting between December and January.",
+          "This timing leads to excellent yields and better prices in the market."
+        ],
+        "tips": [
+          "If you have access to water, you can plant bananas at any time of the year."
+        ]
+      },
+      "properties": [
+        {
+          "name": "Spacing",
+          "description": "Proper spacing is a crucial factor that is often discussed among farmers."
+        }
+      ],
+      "plantingPattern": [
+        {
+          "isTraditional": true,
+          "rowDistance": {
+            "_raw": "6",
+            "value": 6.0
+          },
+          "plantDistance": {
+            "_raw": "5",
+            "value": 5.0
+          },
+          "plantPopulationPerAcre": {
+            "_raw": "1,452",
+            "value": 1452.0
+          },
+          "issues": [
+            "Different spacing methods are used, and each has a different plant density per acre:"
+          ],
+          "tips": [
+            "The speaker recommends planting at 6 x 5 ft or 7 x 5 ft.",
+            "Wider spacing between rows and plants helps the plant base to become thick, resulting in a higher-quality bunch and increased weight.",
+            "With proper management, it is possible to achieve bunch weights of 45 to 50 kg, which is now a common achievement for many farmers.",
+            "Therefore, planning the right planting distance is crucial for getting a good yield."
+          ]
+        },
+        {
+          "isTraditional": true,
+          "rowDistance": {
+            "_raw": "7",
+            "value": 7.0
+          },
+          "plantDistance": {
+            "_raw": "5",
+            "value": 5.0
+          },
+          "plantPopulationPerAcre": {
+            "_raw": "1,244",
+            "value": 1244.0
+          },
+          "issues": [
+            "Different spacing methods are used, and each has a different plant density per acre:"
+          ],
+          "tips": [
+            "The speaker recommends planting at 6 x 5 ft or 7 x 5 ft.",
+            "Wider spacing between rows and plants helps the plant base to become thick, resulting in a higher-quality bunch and increased weight.",
+            "With proper management, it is possible to achieve bunch weights of 45 to 50 kg, which is now a common achievement for many farmers.",
+            "Therefore, planning the right planting distance is crucial for getting a good yield."
+          ]
+        },
+        {
+          "isTraditional": true,
+          "rowDistance": {
+            "_raw": "5",
+            "value": 5.0
+          },
+          "plantDistance": {
+            "_raw": "5",
+            "value": 5.0
+          },
+          "plantPopulationPerAcre": {
+            "_raw": "1,742",
+            "value": 1742.0
+          },
+          "issues": [
+            "Different spacing methods are used, and each has a different plant density per acre:"
+          ]
+        }
+      ]
+    }
+  ],
+  "irrigation": [
+    {
+      "name": "drip irrigation (fertigation)",
+      "description": "Applying some through foliar sprays.",
+      "tips": [
+        "Additionally, the video also includes a chart for the application of water-soluble fertilizers (drip fertigation) at different growth stages.",
+        "This chart shows the specific grades and dosages of fertilizers to be applied at different intervals."
+      ]
+    }
+  ],
+  "plantCare": [
+    {
+      "name": "Fertilizer Management",
+      "description": "How to effectively manage fertilizers for the crop.",
+      "supplements": [
+        {
+          "name": "Nitrogen (N)",
+          "description": "University Recommendation (Per Acre):",
+          "quantityOfApplication": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "nutrient",
+          "usage": "Don't Apply All at Once: Due to the high quantities needed, the fertilizer should be applied in multiple, split doses rather than all at once in the beds."
+        },
+        {
+          "name": "Phosphorus (P)",
+          "description": "University Recommendation (Per Acre):",
+          "quantityOfApplication": {
+            "_raw": "70",
+            "value": 70.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "nutrient",
+          "usage": "Don't Apply All at Once: Due to the high quantities needed, the fertilizer should be applied in multiple, split doses rather than all at once in the beds."
+        },
+        {
+          "name": "Potassium (K)",
+          "description": "University Recommendation (Per Acre):",
+          "quantityOfApplication": {
+            "_raw": "250",
+            "value": 250.0
+          },
+          "unitOfMeasurement": "kg",
+          "use": "nutrient",
+          "usage": "Don't Apply All at Once: Due to the high quantities needed, the fertilizer should be applied in multiple, split doses rather than all at once in the beds."
+        }
+      ],
+      "tips": [
+        "Bananas are a nutrient-hungry crop, requiring more fertilizer than even sugarcane.",
+        "You can apply the fertilizer through various methods:\n\nMixing it into the soil.\n\nUsing drip irrigation (fertigation).\n\nApplying some through foliar sprays."
+      ]
+    }
+  ],
+  "harvesting": [
+    {
+      "name": "Bunch and Fruit Development Stage",
+      "description": "Bunch and Fruit Development Stage: (Day 211 to 325)"
+    }
+  ],
+  "metadata": {
+    "version": {
+      "_raw": "1.2",
+      "value": 1.2
+    },
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "cropName": "Banana",
+  "variety": "Jain Tissue Culture",
+  "location": {
+    "country": null,
+    "stateOrProvince": null,
+    "districtOrCounty": null,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "climateType": "Tropical or Subtropical",
+    "soilRegion": null,
+    "rainfallPattern": null,
+    "notes": null
+  },
+  "season": {
+    "name": "Summer",
+    "startMonth": "January",
+    "endMonth": "June",
+    "durationDays": null,
+    "temperatureRange": {
+      "min": null,
+      "max": {
+        "_raw": "47",
+        "value": 47.0
+      },
+      "ideal": null,
+      "unit": "°C"
+    },
+    "rainfallRange": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": "mm"
+    },
+    "advantages": [
+      "Strong, healthy growth",
+      "Increased resilience",
+      "Faster Harvest",
+      "Improved quality"
+    ],
+    "disadvantages": [
+      "High temperatures during planting season can severely stress or kill young saplings"
+    ],
+    "tips": [
+      "Plant Sunn Hemp (Taag) on the raised beds to provide natural shade and cooling.",
+      "Install physical crop covers over the saplings at the time of planting to protect them from direct, intense sunlight."
+    ]
+  },
+  "temperature": {
+    "min": {
+      "_raw": "15",
+      "value": 15.0
+    },
+    "max": {
+      "_raw": "40",
+      "value": 40.0
+    },
+    "ideal": {
+      "min": 26.0,
+      "max": 30.0,
+      "_raw": "26-30"
+    },
+    "unit": "°C",
+    "growthInitiation": {
+      "min": 20.0,
+      "max": 25.0,
+      "_raw": "20-25"
+    },
+    "peakGrowth": {
+      "min": 28.0,
+      "max": 32.0,
+      "_raw": "28-32"
+    },
+    "growthDecline": {
+      "_raw": "35",
+      "value": 35.0
+    },
+    "corrective": {
+      "whenTooHigh": "Provide shade, increase irrigation frequency, ensure proper ventilation.",
+      "whenTooLow": "Use frost protection measures, mulching, or temporary covers."
+    },
+    "avoid": [
+      "Frost",
+      {
+        "value": 40.0,
+        "unit": "C",
+        "_raw": "Prolonged exposure to temperatures above 40°C"
+      }
+    ],
+    "tips": [
+      "Monitor soil temperature, use shade cloth during peak heat, ensure adequate soil moisture."
+    ]
+  },
+  "properties": [
+    "Requires well-drained soil.",
+    "Demands high nutrient input.",
+    "Sensitive to waterlogging."
+  ],
+  "rootInformation": [
+    "Fibrous root system, mostly in the top 60 cm of soil.",
+    "Extensive lateral root spread."
+  ],
+  "idealConditions": {
+    "temperature": {
+      "min": {
+        "_raw": "25",
+        "value": 25.0
+      },
+      "max": {
+        "_raw": "35",
+        "value": 35.0
+      },
+      "ideal": {
+        "min": 26.0,
+        "max": 30.0,
+        "_raw": "26-30"
+      },
+      "unit": "°C",
+      "growthInitiation": {
+        "_raw": "20",
+        "value": 20.0
+      },
+      "peakGrowth": {
+        "_raw": "28",
+        "value": 28.0
+      },
+      "growthDecline": {
+        "_raw": "35",
+        "value": 35.0
+      },
+      "corrective": {
+        "whenTooHigh": "Shade the plants, increase irrigation.",
+        "whenTooLow": "Provide wind protection; use covers."
+      },
+      "avoid": [
+        "Frost, prolonged high temperatures."
+      ],
+      "tips": [
+        "Monitor temperature regularly, especially during sensitive growth stages."
+      ]
+    },
+    "humidity": {
+      "min": {
+        "_raw": "60",
+        "value": 60.0
+      },
+      "max": {
+        "_raw": "85",
+        "value": 85.0
+      },
+      "ideal": {
+        "min": 70.0,
+        "max": 80.0,
+        "_raw": "70-80"
+      },
+      "unit": "%",
+      "corrective": {
+        "whenTooHigh": "Improve ventilation.",
+        "whenTooLow": "Use misting or sprinklers."
+      },
+      "avoid": [
+        "Extremely high humidity leading to fungal diseases."
+      ],
+      "tips": [
+        "Maintain consistent humidity levels, especially during flowering and fruit development."
+      ]
+    },
+    "soil": {
+      "name": "Loamy, well-drained",
+      "ph": {
+        "min": {
+          "_raw": "5.5",
+          "value": 5.5
+        },
+        "max": {
+          "_raw": "7.5",
+          "value": 7.5
+        },
+        "ideal": {
+          "min": 6.0,
+          "max": 6.5,
+          "_raw": "6.0-6.5"
+        },
+        "unit": "pH",
+        "avoid": [
+          "Extremely acidic or alkaline soils."
+        ],
+        "corrective": {
+          "whenTooHigh": "Add sulfur or organic matter.",
+          "whenTooLow": "Apply lime."
+        },
+        "tips": [
+          "Test soil pH regularly and amend as needed."
+        ]
+      },
+      "drainage": "Well-drained",
+      "fertility": "High",
+      "moisture": "Consistently moist but not waterlogged",
+      "texture": "Medium",
+      "nutrientProfile": [
+        {
+          "name": "Nitrogen",
+          "min": {
+            "_raw": "100",
+            "value": 100.0
+          },
+          "max": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "ideal": {
+            "min": 120.0,
+            "max": 180.0,
+            "_raw": "120-180"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Deficiency leading to stunted growth, excess leading to leafy growth."
+          ],
+          "corrective": {
+            "whenTooHigh": "Reduce nitrogen fertilizer application; leach soil.",
+            "whenTooLow": "Apply nitrogen-rich fertilizer."
+          },
+          "tips": [
+            "Monitor leaf color for nitrogen deficiency; split applications for efficiency."
+          ]
+        },
+        {
+          "name": "Phosphorus",
+          "min": {
+            "_raw": "30",
+            "value": 30.0
+          },
+          "max": {
+            "_raw": "60",
+            "value": 60.0
+          },
+          "ideal": {
+            "min": 40.0,
+            "max": 50.0,
+            "_raw": "40-50"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Deficiency leading to poor root development; excess can interfere with micronutrient uptake."
+          ],
+          "corrective": {
+            "whenTooHigh": "Avoid over-application of phosphate fertilizers.",
+            "whenTooLow": "Apply phosphate fertilizer such as superphosphate."
+          },
+          "tips": [
+            "Ensure adequate phosphorus levels during early growth stages for root development."
+          ]
+        },
+        {
+          "name": "Potassium",
+          "min": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "max": {
+            "_raw": "400",
+            "value": 400.0
+          },
+          "ideal": {
+            "min": 250.0,
+            "max": 350.0,
+            "_raw": "250-350"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Deficiency leading to marginal leaf scorch; excess can cause magnesium deficiency."
+          ],
+          "corrective": {
+            "whenTooHigh": "Avoid excessive potassium fertilizer; balance with other nutrients.",
+            "whenTooLow": "Apply potassium sulfate or potash."
+          },
+          "tips": [
+            "Potassium is crucial for fruit development; monitor levels during fruit filling."
+          ]
+        }
+      ],
+      "tips": [
+        "Conduct regular soil tests to adjust nutrient levels as needed.",
+        "Incorporate organic matter to improve soil structure and fertility."
+      ]
+    },
+    "wind": {
+      "min": {
+        "_raw": "5",
+        "value": 5.0
+      },
+      "max": {
+        "_raw": "30",
+        "value": 30.0
+      },
+      "ideal": {
+        "min": 10.0,
+        "max": 20.0,
+        "_raw": "10-20"
+      },
+      "unit": "km/h",
+      "corrective": {
+        "whenTooHigh": "Use windbreaks.",
+        "whenTooLow": "Ensure adequate air circulation."
+      },
+      "avoid": [
+        "Strong winds during flowering and fruit set."
+      ],
+      "tips": [
+        "Plant windbreaks perpendicular to prevailing winds."
+      ]
+    }
+  },
+  "landPreparation": [
+    {
+      "processName": "Initial Land Preparation",
+      "function": "Preparing the soil correctly for planting.",
+      "advantages": [
+        "Healthy and productive orchard."
+      ],
+      "disadvantages": [
+        "Incorrect preparation can lead to crop failure."
+      ],
+      "properties": [
+        {
+          "name": "Soil Tilth",
+          "description": "Loose and friable (well-aerated) soil is achieved."
+        },
+        {
+          "name": "Water Drainage",
+          "description": "Improved water drainage to avoid waterlogging."
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tractor with plow",
+          "description": "Used for deep plowing.",
+          "use": "Breaks up compacted soil.",
+          "usage": "Plow to a depth of at least 30 cm."
+        },
+        {
+          "name": "Subsoiler",
+          "description": "Breaks up hardpans in the subsoil.",
+          "use": "Improves water drainage and root penetration.",
+          "usage": "Run subsoiler along rows to break up hardpans."
+        }
+      ],
+      "tips": [
+        "Ensure deep plowing for proper aeration and drainage.",
+        "Consider soil testing to determine nutrient deficiencies before planting."
+      ],
+      "referenceImages": []
+    }
+  ],
+  "planting": [
+    {
+      "name": "Raised Bed Planting",
+      "description": "Planting bananas on raised beds for improved drainage and aeration.",
+      "advantages": [
+        "Improved drainage",
+        "Enhanced aeration",
+        "Better nutrient uptake"
+      ],
+      "disadvantages": [
+        "Requires additional labor and resources for bed construction"
+      ],
+      "supplements": [
+        {
+          "name": "Farmyard Manure",
+          "description": "Provides essential nutrients and improves soil structure.",
+          "type": "Organic",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": "5 trolleys per hajari (acre)",
+          "unitOfMeasurement": "trolleys/acre",
+          "symptoms": [],
+          "use": "Enrich soil with organic matter and nutrients.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        },
+        {
+          "name": "Vermicompost",
+          "description": "Enhances soil fertility and provides micronutrients.",
+          "type": "Organic",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": "kg/acre",
+          "symptoms": [],
+          "use": "Provide a rich source of micronutrients.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        },
+        {
+          "name": "Super Phosphate",
+          "description": "Provides phosphorus for root development.",
+          "type": "Chemical",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": "kg/acre",
+          "symptoms": [],
+          "use": "Promote healthy root growth.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        },
+        {
+          "name": "Potash",
+          "description": "Provides potassium for overall plant health and fruit development.",
+          "type": "Chemical",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": "kg/acre",
+          "symptoms": [],
+          "use": "Enhance fruit quality and disease resistance.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        },
+        {
+          "name": "Neem Cake",
+          "description": "Acts as a natural insecticide and provides nitrogen.",
+          "type": "Organic",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": "kg/acre",
+          "symptoms": [],
+          "use": "Control soil pests and provide slow-release nitrogen.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        },
+        {
+          "name": "Gypsum",
+          "description": "Improves soil structure and provides calcium and sulfur.",
+          "type": "Chemical",
+          "timeOfApplication": "At the time of raised bed preparation",
+          "frequencyOfApplication": "Once, during bed preparation",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": "kg/acre",
+          "symptoms": [],
+          "use": "Improve soil structure and nutrient availability.",
+          "usage": "Mix thoroughly into the soil while creating the raised beds.",
+          "referenceImages": []
+        }
+      ],
+      "diseases": [],
+      "precautions": [
+        "Ensure proper drainage to avoid waterlogging."
+      ],
+      "plantingPattern": [
+        {
+          "isTraditional": false,
+          "rowDistance": null,
+          "plantDistance": null,
+          "plantPopulationPerAcre": null,
+          "issues": [],
+          "regionalAdjustments": [],
+          "tips": [
+            "Maintain adequate spacing to ensure proper light penetration and air circulation."
+          ],
+          "referenceImages": []
+        }
+      ],
+      "season": {
+        "name": "Summer",
+        "timeOfPlanting": "April - June",
+        "timeOfFlowering": null,
+        "timeOfHarvest": null,
+        "reasons": [
+          "Utilize the warmer temperatures for growth."
+        ],
+        "advantages": [
+          "Optimal growing conditions for banana plants."
+        ],
+        "disadvantages": [
+          "Risk of heat stress and water scarcity."
+        ],
+        "avoid": [
+          "Planting during periods of extreme heat or drought."
+        ],
+        "tips": [
+          "Provide adequate irrigation and shade during hot periods."
+        ]
+      },
+      "properties": [
+        {
+          "name": "Bed Height",
+          "description": "Ensures proper drainage."
+        },
+        {
+          "name": "Bed Width",
+          "description": "Provides adequate space for root development."
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Shovel",
+          "description": "Used for constructing raised beds.",
+          "use": "Moving soil to create the beds.",
+          "usage": "Use to lift and move soil to form the raised beds."
+        },
+        {
+          "name": "Measuring Tape",
+          "description": "Used for ensuring correct bed dimensions.",
+          "use": "Measuring bed height and width.",
+          "usage": "Measure the bed height (1 to 1.5 feet) and width (approximately 2.5 feet)."
+        }
+      ],
+      "tips": [
+        "Ensure proper bed dimensions for optimal drainage and aeration.",
+        "Mix all necessary nutrients thoroughly into the soil while creating the raised beds."
+      ],
+      "referenceImages": []
+    }
+  ],
+  "irrigation": [
+    {
+      "name": "Double Drip Irrigation",
+      "description": "Using two drip irrigation lines per raised bed for uniform water distribution.",
+      "advantages": [
+        "Maintains ideal air-water balance (wapsa condition).",
+        "Keeps the root systems on both sides of the plant active and efficient.",
+        "Effective nutrient uptake."
+      ],
+      "disadvantages": [
+        "Higher initial cost compared to single drip line systems."
+      ],
+      "tips": [
+        "Monitor soil moisture levels to adjust irrigation frequency as needed.",
+        "Ensure drip lines are functioning correctly to avoid water wastage."
+      ],
+      "waterUsage": null,
+      "waterQuality": "Clean and free of sediment.",
+      "intervals": null,
+      "use": "Deliver water and nutrients directly to the root zone.",
+      "usage": "Place two drip irrigation pipes on each raised bed.",
+      "toolsAndResources": [
+        {
+          "name": "Drip Lines",
+          "description": "Pipes with emitters for delivering water directly to the plant roots.",
+          "use": "Providing a consistent supply of water to the plants.",
+          "usage": "Lay two drip lines along each raised bed, close to the plants."
+        },
+        {
+          "name": "Water Pump",
+          "description": "Provides pressure to the irrigation system.",
+          "use": "Supplying water to the drip lines.",
+          "usage": "Connect the pump to a water source and adjust pressure to deliver water efficiently."
+        }
+      ],
+      "referenceImages": []
+    }
+  ],
+  "plantCare": [],
+  "fruitCare": [],
+  "harvesting": [],
+  "postHarvesting": [],
+  "storage": [],
+  "fruitProcessing": [],
+  "transportation": [],
+  "exporting": [],
+  "metadata": {
+    "version": {
+      "_raw": "1.2",
+      "value": 1.2
+    },
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  }
+}

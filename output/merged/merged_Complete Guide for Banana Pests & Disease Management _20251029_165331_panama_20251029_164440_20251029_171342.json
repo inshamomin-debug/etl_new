@@ -1,0 +1,565 @@
+{
+  "cropName": "Banana",
+  "variety": null,
+  "location": {
+    "country": null,
+    "stateOrProvince": null,
+    "districtOrCounty": null,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "climateType": "warm, humid",
+    "soilRegion": null,
+    "rainfallPattern": null,
+    "notes": null
+  },
+  "season": {
+    "name": null,
+    "startMonth": null,
+    "endMonth": null,
+    "durationDays": null,
+    "temperatureRange": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": null
+    },
+    "rainfallRange": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": null
+    },
+    "advantages": [],
+    "disadvantages": [],
+    "tips": []
+  },
+  "temperature": {
+    "min": null,
+    "max": null,
+    "ideal": null,
+    "unit": null,
+    "growthInitiation": null,
+    "peakGrowth": null,
+    "growthDecline": null,
+    "corrective": {
+      "whenTooHigh": null,
+      "whenTooLow": null
+    },
+    "avoid": [],
+    "tips": []
+  },
+  "properties": [],
+  "rootInformation": [],
+  "idealConditions": {
+    "temperature": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": null,
+      "growthInitiation": null,
+      "peakGrowth": null,
+      "growthDecline": null,
+      "corrective": {
+        "whenTooHigh": null,
+        "whenTooLow": null
+      },
+      "avoid": [],
+      "tips": []
+    },
+    "humidity": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": "%",
+      "corrective": {
+        "whenTooHigh": null,
+        "whenTooLow": null
+      },
+      "avoid": [],
+      "tips": []
+    },
+    "soil": {
+      "name": null,
+      "ph": {
+        "min": null,
+        "max": null,
+        "ideal": null,
+        "unit": "pH",
+        "avoid": [],
+        "corrective": {
+          "whenTooHigh": null,
+          "whenTooLow": null
+        },
+        "tips": []
+      },
+      "drainage": null,
+      "fertility": null,
+      "moisture": null,
+      "texture": null,
+      "nutrientProfile": [],
+      "tips": []
+    },
+    "wind": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": "km/h",
+      "corrective": {
+        "whenTooHigh": null,
+        "whenTooLow": null
+      },
+      "avoid": [],
+      "tips": []
+    }
+  },
+  "landPreparation": [],
+  "planting": [
+    {
+      "name": "Selection of healthy suckers",
+      "description": "Proper care should be given when planting susceptible cultivators by selecting healthy suckers from disease fields",
+      "advantages": [
+        "Reduces the risk of Panama Wilt"
+      ],
+      "disadvantages": [],
+      "supplements": [],
+      "diseases": [
+        {
+          "name": "Panama Wilt",
+          "description": "Fusarium oxysporum f.sp cubense is a soil borne disease that enters the roots through the fine laterals. The pathogen is easily spread by infected rhizomes or suckers, farm implements or vehicles, irrigation water",
+          "cause": "Fungal",
+          "symptoms": [
+            "Externally, the first obvious signs of disease in most varieties are wilting and a light yellow colouring of the lower leaves, most prominent around the margins. They eventually turn a bright yellow colour with dead leaf margins.",
+            "Splitting of the pseudo stem base is a characteristic symptom.",
+            "When a cross-section is cut, the discolouration appears in a circular pattern around the centre of the rhizome where the infection concentrates due to the arrangement of the vessels. As symptoms progress into the pseudo-stem, continuous lines of discolouration are evident when the plant is cut longitudinally"
+          ],
+          "cure": []
+        }
+      ],
+      "precautions": [],
+      "plantingPattern": [],
+      "season": {
+        "name": null,
+        "timeOfPlanting": null,
+        "timeOfFlowering": null,
+        "timeOfHarvest": null,
+        "reasons": [],
+        "advantages": [],
+        "disadvantages": [],
+        "avoid": [],
+        "tips": []
+      },
+      "properties": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "referenceImages": []
+    }
+  ],
+  "irrigation": [],
+  "plantCare": [
+    {
+      "name": "Disease Management",
+      "description": "Management of Panama Wilt disease",
+      "advantages": [],
+      "disadvantages": [],
+      "precautions": [],
+      "diseases": [
+        {
+          "name": "Panama Wilt",
+          "description": "Fusarium oxysporum f.sp cubense is a soil borne disease that enters the roots through the fine laterals. The pathogen is easily spread by infected rhizomes or suckers, farm implements or vehicles, irrigation water",
+          "cause": "Fungal",
+          "symptoms": [
+            "Externally, the first obvious signs of disease in most varieties are wilting and a light yellow colouring of the lower leaves, most prominent around the margins. They eventually turn a bright yellow colour with dead leaf margins.",
+            "Splitting of the pseudo stem base is a characteristic symptom.",
+            "When a cross-section is cut, the discolouration appears in a circular pattern around the centre of the rhizome where the infection concentrates due to the arrangement of the vessels. As symptoms progress into the pseudo-stem, continuous lines of discolouration are evident when the plant is cut longitudinally"
+          ],
+          "cure": []
+        }
+      ],
+      "supplements": [
+        {
+          "name": "Bacillus subtilis",
+          "description": "Application Bacillus subtilis bactericide can also be applied along with farmyard manure and neem cake.",
+          "type": "Biological",
+          "grade": null,
+          "timeOfApplication": "During planting",
+          "frequencyOfApplication": null,
+          "quantityOfApplication": {
+            "_raw": "2.5",
+            "value": 2.5
+          },
+          "unitOfMeasurement": "kg/ha",
+          "symptoms": [],
+          "use": "Control Panama Wilt",
+          "usage": "Apply along with farmyard manure and neem cake.",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Bacillus subtilis",
+          "description": "About 60 mg of Bacillus subtilis (in a capsule) can be applied in a 10 cm deep hole made in the corm.",
+          "type": "Biological",
+          "grade": null,
+          "timeOfApplication": "During planting",
+          "frequencyOfApplication": null,
+          "quantityOfApplication": {
+            "_raw": "60",
+            "value": 60.0
+          },
+          "unitOfMeasurement": "mg",
+          "symptoms": [],
+          "use": "Control Panama Wilt",
+          "usage": "Applied in a 10 cm deep hole made in the corm.",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Carbofuran",
+          "description": "Paring (pralinge removal of roots and outer skin of corm) and dipping of the suckers in clay slurry and sprinkled with Carbofuran granules",
+          "type": "Chemical",
+          "grade": null,
+          "timeOfApplication": "During planting",
+          "frequencyOfApplication": null,
+          "quantityOfApplication": {
+            "_raw": "40",
+            "value": 40.0
+          },
+          "unitOfMeasurement": "g/corm",
+          "symptoms": [],
+          "use": "Control Panama Wilt",
+          "usage": "Paring (pralinge removal of roots and outer skin of corm) and dipping of the suckers in clay slurry and sprinkled with Carbofuran granules",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Carbendazim",
+          "description": "Soil drenching of Carbendazim 0.1 per cent solution around the pseudo stem at bimonthly intervals starting from five months after planting.",
+          "type": "Chemical",
+          "grade": "0.1 per cent",
+          "timeOfApplication": "Starting from five months after planting",
+          "frequencyOfApplication": "bimonthly intervals",
+          "quantityOfApplication": null,
+          "unitOfMeasurement": null,
+          "symptoms": [],
+          "use": "Control Panama Wilt",
+          "usage": "Soil drenching of Carbendazim 0.1 per cent solution around the pseudo stem at bimonthly intervals starting from five months after planting.",
+          "toolsAndResources": [],
+          "referenceImages": []
+        }
+      ],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Control Panama Wilt",
+      "usage": "Application of Bacillus subtilis, Carbofuran, and Carbendazim",
+      "referenceImages": []
+    },
+    {
+      "name": "Sanitation",
+      "description": "Remove and destroy infested plant material after harvest",
+      "advantages": [
+        "Reduces the spread of Panama Wilt"
+      ],
+      "disadvantages": [],
+      "precautions": [],
+      "diseases": [
+        {
+          "name": "Panama Wilt",
+          "description": "Fusarium oxysporum f.sp cubense is a soil borne disease that enters the roots through the fine laterals. The pathogen is easily spread by infected rhizomes or suckers, farm implements or vehicles, irrigation water",
+          "cause": "Fungal",
+          "symptoms": [
+            "Externally, the first obvious signs of disease in most varieties are wilting and a light yellow colouring of the lower leaves, most prominent around the margins. They eventually turn a bright yellow colour with dead leaf margins.",
+            "Splitting of the pseudo stem base is a characteristic symptom.",
+            "When a cross-section is cut, the discolouration appears in a circular pattern around the centre of the rhizome where the infection concentrates due to the arrangement of the vessels. As symptoms progress into the pseudo-stem, continuous lines of discolouration are evident when the plant is cut longitudinally"
+          ],
+          "cure": []
+        }
+      ],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Control Panama Wilt",
+      "usage": "Remove and destroy infested plant material after harvest",
+      "referenceImages": []
+    }
+  ],
+  "fruitCare": [],
+  "harvesting": [],
+  "postHarvesting": [],
+  "storage": [],
+  "fruitProcessing": [],
+  "transportation": [],
+  "exporting": [],
+  "metadata": {
+    "version": {
+      "_raw": "1.2",
+      "value": 1.2
+    },
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  },
+  "diseases": [
+    {
+      "name": "Panama Wilt Disease",
+      "description": "a deadly fungal disease in bananas caused by Fusarium oxysporum f. sp. cubense, leading to wilting and plant death. It spreads through soil and water, making prevention crucial.",
+      "cause": "fungal",
+      "symptoms": [
+        "Leaf Yellowing & Wilting - Starts from older leaves and spreads to younger ones.",
+        "Uneven Wilting - Some leaves wilt more than others.",
+        "Brittle Leaves - Leaves become dry and snap easily.",
+        "Pseudostem Splitting - The stalk may crack open.",
+        "Plant Death - Disease eventually kills the entire plant"
+      ],
+      "cure": [
+        {
+          "name": "Use resistant varieties",
+          "description": null,
+          "use": "to prevent banana plant disease",
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Improve drainage",
+          "description": null,
+          "use": "to reduce fungal spread",
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Katyayani Pseudomonas fluorescence",
+          "description": "a bio-fungicide",
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ],
+      "referenceImages": []
+    },
+    {
+      "name": "Sigatoka Leaf Spot Disease",
+      "description": "a fungal infection that affects banana leaves, reducing photosynthesis and overall yield.",
+      "cause": "fungal",
+      "symptoms": [
+        "Black Sigatoka: Reddish-brown flecks turn into dark streaks, causing leaf die-off.",
+        "Yellow Sigatoka: Yellow streaks near leaf edges expand, leading to defoliation."
+      ],
+      "cure": [
+        {
+          "name": "Remove and destroy infected leaves",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Katyayani Boost ( Propiconazole 25 % EC )",
+          "description": null,
+          "use": "to prevent fungal spread",
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Improve field ventilation",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ],
+      "referenceImages": []
+    },
+    {
+      "name": "Anthracnose Disease",
+      "description": "a banana major disease that affects both leaves and fruits, causing severe economic losses for farmers.",
+      "cause": null,
+      "symptoms": [
+        "Dark, sunken lesions on leaves, stems, fruits, or flowers",
+        "Blight of leaves and shoots",
+        "Dieback of twigs and branches",
+        "Premature defoliation",
+        "Stunted growth, Reduced fruit yield"
+      ],
+      "cure": [
+        {
+          "name": "Katyayani Samartha (Carbendazim 12 % + Mancozeb 63 % WP)",
+          "description": "a powerful fungicide",
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Ensure proper air circulation in plantations",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Harvest fruits at the correct maturity stage",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ],
+      "referenceImages": []
+    },
+    {
+      "name": "Yellow Leaf Disease",
+      "description": "This viral disease weakens plants and significantly reduces productivity, making it a serious concern for banana farmers.",
+      "cause": "viral",
+      "symptoms": [
+        "Yellowing of leaves from edges inward",
+        "Reduced growth and fruit production"
+      ],
+      "cure": [
+        {
+          "name": "Use virus-free planting materials",
+          "description": "like NPK 19:19:19 Fertilize",
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Remove and destroy infected plants",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ],
+      "referenceImages": []
+    }
+  ],
+  "pests": [
+    {
+      "name": "Thrips in Banana",
+      "description": "tiny insects that suck plant sap, leading to scarring and reduced fruit quality. They thrive in warm, humid conditions and are a major threat to banana crops.",
+      "symptoms": [
+        "Early Signs: Small, water-soaked spots on fruit due to thrips feeding.",
+        "Discoloration: Rusty-red or dark brown rough, scabby patches.",
+        "Severe Cases: Fruit skin may crack or split.",
+        "Market Impact: External damage lowers appeal, causing market rejection."
+      ],
+      "cure": [
+        {
+          "name": "Katyayani Imd-178 Imidacloprid 17.8% SL",
+          "description": "an effective insecticide for banana plants",
+          "use": "recommended for thrips",
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Maintain field hygiene and remove affected plant parts",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ]
+    },
+    {
+      "name": "Cutworm in Banana",
+      "description": "the larvae of various moth species that cut the stems of young banana plants at the soil surface, leading to plant wilting, damage, and even death",
+      "symptoms": [
+        "Wilting and death of seedlings",
+        "Stems cut off at the base",
+        "Holes in leaves",
+        "Presence of cutworms in the soil"
+      ],
+      "cure": [
+        {
+          "name": "Katyayani Fluben (Flubendiamide 39.35% SC)",
+          "description": null,
+          "use": "for controlling banana tree pests",
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Avoid excessive mulch",
+          "description": "which provides a hiding place",
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ]
+    },
+    {
+      "name": "Aphids in Banana",
+      "description": "small, soft-bodied insects that feed on plant sap and spread viral diseases, including banana yellow leaf disease.",
+      "symptoms": [
+        "Distorted Leaves: Aphids suck sap, causing curling, crinkling, or stunted growth.",
+        "Yellowing Leaves: Leaves turn pale green or yellow due to sap loss.",
+        "Sticky Honeydew: Aphids excrete a sugary substance, attracting ants.",
+        "Sooty Mold: Black fungus grows on honeydew, blocking sunlight."
+      ],
+      "cure": [
+        {
+          "name": "Spray Katyayani Nashak (Fipronil 40 % + Imidacloprid 40 % wg) or neem-based solutions",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Remove weeds that host aphids",
+          "description": null,
+          "use": null,
+          "usage": null,
+          "warnings": [],
+          "sideEffects": [],
+          "tips": [],
+          "referenceImages": []
+        }
+      ]
+    }
+  ]
+}

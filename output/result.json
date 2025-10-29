@@ -1,0 +1,891 @@
+{
+  "cropName": "Banana",
+  "variety": null,
+  "location": {
+    "country": "India",
+    "stateOrProvince": "Maharashtra",
+    "districtOrCounty": "Jalgaon, Solapur, Vidarbha (Anjangaon Surji, Akot, Morshi, Warud)",
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "climateType": "Tropical",
+    "soilRegion": null,
+    "rainfallPattern": "Varies, increases with rainfall (Karpa trigger)",
+    "notes": "Jalgaon is the hub of banana production, Solapur for exports. Vidarbha experiencing cold injury (Charka)."
+  },
+  "season": {
+    "name": "Winter",
+    "startMonth": "November",
+    "endMonth": "February",
+    "durationDays": null,
+    "temperatureRange": {
+      "min": {
+        "_raw": "9",
+        "value": 9.0
+      },
+      "max": {
+        "_raw": "26",
+        "value": 26.0
+      },
+      "ideal": null,
+      "unit": "°C"
+    },
+    "rainfallRange": {
+      "min": null,
+      "max": null,
+      "ideal": null,
+      "unit": "mm"
+    },
+    "advantages": [
+      "Lower pest and disease pressure in some regions."
+    ],
+    "disadvantages": [
+      "Cold injury (Charka) can occur.",
+      "Reduced nutrient absorption at lower temperatures."
+    ],
+    "tips": [
+      "Continue irrigation at night.",
+      "Apply water-soluble fertilizers through drip every fourth day (fertigation).",
+      "Provide essential nutrients like N, P, K, Mg, Ca, S, Zn, Fe, and B."
+    ]
+  },
+  "temperature": {
+    "min": {
+      "_raw": "9",
+      "value": 9.0
+    },
+    "max": {
+      "_raw": "47",
+      "value": 47.0
+    },
+    "ideal": {
+      "min": 26.0,
+      "max": 30.0,
+      "_raw": "26-30"
+    },
+    "unit": "°C",
+    "growthInitiation": {
+      "_raw": "16",
+      "value": 16.0
+    },
+    "peakGrowth": {
+      "min": 25.0,
+      "max": 35.0,
+      "_raw": "25-35"
+    },
+    "growthDecline": null,
+    "corrective": {
+      "whenTooHigh": "Provide shade, use crop covers, irrigate frequently.",
+      "whenTooLow": "Irrigate at night, use windbreaks, consider greenhouse or row covers."
+    },
+    "avoid": [
+      "Frost",
+      {
+        "value": 15.0,
+        "unit": "C",
+        "_raw": "Prolonged periods below 15°C."
+      }
+    ],
+    "tips": [
+      "Monitor temperature, especially during critical growth stages."
+    ]
+  },
+  "properties": [
+    "Large herbaceous plant.",
+    "Produces fruit in bunches."
+  ],
+  "rootInformation": [
+    "Fibrous root system.",
+    "Relatively shallow rooting depth (typically less than 1 meter)."
+  ],
+  "idealConditions": {
+    "temperature": {
+      "min": {
+        "_raw": "20",
+        "value": 20.0
+      },
+      "max": {
+        "_raw": "35",
+        "value": 35.0
+      },
+      "ideal": {
+        "min": 26.0,
+        "max": 30.0,
+        "_raw": "26-30"
+      },
+      "unit": "°C",
+      "growthInitiation": {
+        "_raw": "18",
+        "value": 18.0
+      },
+      "peakGrowth": {
+        "min": 28.0,
+        "max": 32.0,
+        "_raw": "28-32"
+      },
+      "growthDecline": {
+        "_raw": "38",
+        "value": 38.0
+      },
+      "corrective": {
+        "whenTooHigh": "Shade netting, evaporative cooling, increased irrigation.",
+        "whenTooLow": "Heaters, windbreaks, mulching."
+      },
+      "avoid": [
+        "Frost",
+        {
+          "value": 38.0,
+          "unit": "C",
+          "_raw": "Prolonged heat stress above 38°C."
+        }
+      ],
+      "tips": [
+        "Use weather data to anticipate temperature fluctuations; adjust irrigation and shading accordingly."
+      ]
+    },
+    "humidity": {
+      "min": {
+        "_raw": "60",
+        "value": 60.0
+      },
+      "max": {
+        "_raw": "90",
+        "value": 90.0
+      },
+      "ideal": {
+        "min": 70.0,
+        "max": 80.0,
+        "_raw": "70-80"
+      },
+      "unit": "%",
+      "corrective": {
+        "whenTooHigh": "Improve ventilation; apply fungicides as needed.",
+        "whenTooLow": "Misting systems; increase irrigation frequency; use humidifiers."
+      },
+      "avoid": [
+        "Stagnant air; prolonged periods of high humidity promoting fungal growth."
+      ],
+      "tips": [
+        "Monitor humidity levels; ensure adequate air circulation to prevent disease."
+      ]
+    },
+    "soil": {
+      "name": "Well-drained loamy soil",
+      "ph": {
+        "min": {
+          "_raw": "5.5",
+          "value": 5.5
+        },
+        "max": {
+          "_raw": "7.0",
+          "value": 7.0
+        },
+        "ideal": {
+          "min": 6.0,
+          "max": 6.5,
+          "_raw": "6.0-6.5"
+        },
+        "unit": "pH",
+        "avoid": [
+          "Extremely acidic or alkaline soils."
+        ],
+        "corrective": {
+          "whenTooHigh": "Apply sulfur or organic matter.",
+          "whenTooLow": "Apply lime or alkaline amendments."
+        },
+        "tips": [
+          "Test soil pH regularly; adjust amendments based on soil test results."
+        ]
+      },
+      "drainage": "Well-drained",
+      "fertility": "High",
+      "moisture": "Consistently moist, but not waterlogged",
+      "texture": "Medium",
+      "nutrientProfile": [
+        {
+          "name": "Nitrogen",
+          "min": {
+            "_raw": "100",
+            "value": 100.0
+          },
+          "max": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "ideal": {
+            "min": 120.0,
+            "max": 180.0,
+            "_raw": "120-180"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Nitrogen deficiency (yellowing leaves); excessive nitrogen leading to lush growth but poor fruit production."
+          ],
+          "corrective": {
+            "whenTooHigh": "Reduce nitrogen fertilizer application; increase irrigation to leach excess nitrogen.",
+            "whenTooLow": "Apply nitrogen-rich fertilizer (e.g., urea, ammonium sulfate)."
+          },
+          "tips": [
+            "Monitor leaf color and growth rate; adjust nitrogen application accordingly."
+          ]
+        },
+        {
+          "name": "Phosphorus",
+          "min": {
+            "_raw": "20",
+            "value": 20.0
+          },
+          "max": {
+            "_raw": "50",
+            "value": 50.0
+          },
+          "ideal": {
+            "min": 30.0,
+            "max": 40.0,
+            "_raw": "30-40"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Phosphorus deficiency (stunted growth, purplish leaves); phosphorus toxicity (rare, but can interfere with micronutrient uptake)."
+          ],
+          "corrective": {
+            "whenTooHigh": "Reduce phosphorus fertilizer; improve soil drainage.",
+            "whenTooLow": "Apply phosphorus fertilizer (e.g., superphosphate, rock phosphate)."
+          },
+          "tips": [
+            "Ensure adequate phosphorus availability, especially during early growth stages."
+          ]
+        },
+        {
+          "name": "Potassium",
+          "min": {
+            "_raw": "200",
+            "value": 200.0
+          },
+          "max": {
+            "_raw": "400",
+            "value": 400.0
+          },
+          "ideal": {
+            "min": 250.0,
+            "max": 350.0,
+            "_raw": "250-350"
+          },
+          "unit": "ppm",
+          "avoid": [
+            "Potassium deficiency (leaf edge yellowing, poor fruit filling); potassium toxicity (can interfere with magnesium uptake)."
+          ],
+          "corrective": {
+            "whenTooHigh": "Reduce potassium fertilizer; leach soil with water.",
+            "whenTooLow": "Apply potassium fertilizer (e.g., potassium sulfate, potassium chloride)."
+          },
+          "tips": [
+            "Potassium is crucial for fruit quality; monitor potassium levels throughout the growing season."
+          ]
+        }
+      ],
+      "tips": [
+        "Conduct regular soil tests to monitor nutrient levels and pH; amend soil as needed."
+      ]
+    },
+    "wind": {
+      "min": {
+        "_raw": "5",
+        "value": 5.0
+      },
+      "max": {
+        "_raw": "40",
+        "value": 40.0
+      },
+      "ideal": {
+        "min": 10.0,
+        "max": 20.0,
+        "_raw": "10-20"
+      },
+      "unit": "km/h",
+      "corrective": {
+        "whenTooHigh": "Establish windbreaks (e.g., trees, fences); provide support for plants.",
+        "whenTooLow": "Increase air circulation with fans if disease pressure increases."
+      },
+      "avoid": [
+        "Strong winds that can damage leaves and topple plants, especially during flowering and fruit set."
+      ],
+      "tips": [
+        "Plant windbreaks perpendicular to prevailing winds; ensure proper plant spacing to minimize wind damage."
+      ]
+    }
+  },
+  "landPreparation": [
+    {
+      "processName": "Tillage",
+      "function": "Loosening the soil, improving aeration and drainage",
+      "advantages": [
+        "Improved root penetration",
+        "Better water infiltration"
+      ],
+      "disadvantages": [
+        "Soil erosion if not done properly",
+        "Compaction if over-tilled"
+      ],
+      "properties": [
+        {
+          "name": "Soil tilth",
+          "description": "Loose and crumbly soil structure"
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Tractor with tiller",
+          "description": "Machine used to cultivate the soil",
+          "use": "Before planting",
+          "usage": "Till the soil to a depth of 30-45 cm"
+        }
+      ],
+      "tips": [
+        "Avoid over-tilling the soil",
+        "Incorporate organic matter during tillage"
+      ],
+      "referenceImages": []
+    },
+    {
+      "processName": "Weed Removal",
+      "function": "Eliminating weeds to reduce competition for resources",
+      "advantages": [
+        "Reduces competition for nutrients, water, and sunlight",
+        "Improves crop health and yield"
+      ],
+      "disadvantages": [
+        "Can be labor-intensive or require the use of herbicides",
+        "Soil disturbance can lead to weed seed germination"
+      ],
+      "properties": [
+        {
+          "name": "Weed-free soil",
+          "description": "Soil free from weeds"
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Hoe",
+          "description": "Hand tool for weeding",
+          "use": "Throughout the growing season",
+          "usage": "Manually remove weeds from the soil"
+        }
+      ],
+      "tips": [
+        "Remove weeds before they flower and set seed",
+        "Mulch to suppress weed growth"
+      ],
+      "referenceImages": []
+    }
+  ],
+  "planting": [
+    {
+      "name": "Sapling Planting",
+      "description": "Planting of tissue culture or sucker-derived banana saplings",
+      "advantages": [
+        "Uniform plant growth",
+        "Disease-free planting material (tissue culture)"
+      ],
+      "disadvantages": [
+        "Higher initial cost for tissue culture saplings",
+        "Susceptibility to CMV (Cucumber Mosaic Virus) in May-July plantings"
+      ],
+      "supplements": [],
+      "diseases": [
+        {
+          "name": "Cucumber Mosaic Virus (CMV)",
+          "description": "Viral disease affecting young banana plants",
+          "cause": "Virus transmitted by aphids",
+          "symptoms": [
+            "Mosaic pattern on leaves",
+            "Stunted growth"
+          ],
+          "cure": [],
+          "referenceImages": []
+        }
+      ],
+      "precautions": [
+        "Use disease-free planting material",
+        "Avoid planting maize or cotton near banana fields"
+      ],
+      "plantingPattern": [
+        {
+          "isTraditional": true,
+          "rowDistance": "2-3 m",
+          "plantDistance": "1.5-2 m",
+          "plantPopulationPerAcre": null,
+          "issues": [
+            "Overcrowding leads to reduced sunlight penetration and increased disease risk"
+          ],
+          "regionalAdjustments": [],
+          "tips": [
+            "Adjust spacing based on soil fertility and variety"
+          ],
+          "referenceImages": []
+        }
+      ],
+      "season": {
+        "name": null,
+        "timeOfPlanting": "Year-round, with considerations for local climate",
+        "timeOfFlowering": null,
+        "timeOfHarvest": null,
+        "reasons": [],
+        "advantages": [],
+        "disadvantages": [],
+        "avoid": [],
+        "tips": []
+      },
+      "properties": [],
+      "toolsAndResources": [
+        {
+          "name": "Shovel",
+          "description": "For digging planting holes",
+          "use": "During planting",
+          "usage": "Dig holes of appropriate size for saplings"
+        }
+      ],
+      "tips": [
+        "Plant saplings at the correct depth",
+        "Water saplings immediately after planting"
+      ],
+      "referenceImages": []
+    }
+  ],
+  "irrigation": [
+    {
+      "name": "Drip irrigation",
+      "description": "Application of water directly to the root zone through drip emitters",
+      "advantages": [
+        "Water conservation",
+        "Efficient nutrient delivery (fertigation)"
+      ],
+      "disadvantages": [
+        "Clogging of emitters",
+        "High initial cost"
+      ],
+      "tips": [
+        "Monitor emitter performance regularly",
+        "Flush drip lines to prevent clogging"
+      ],
+      "waterUsage": null,
+      "waterQuality": "Good quality, free from sediment and excessive salts",
+      "intervals": "As needed, based on soil moisture and plant demand",
+      "use": "To provide water and nutrients to the plants",
+      "usage": "Apply water slowly and evenly to the root zone",
+      "toolsAndResources": [
+        {
+          "name": "Drip line",
+          "description": "Plastic tubing with emitters",
+          "use": "Throughout the growing season",
+          "usage": "Lay drip lines along the plant rows"
+        }
+      ],
+      "referenceImages": []
+    }
+  ],
+  "plantCare": [
+    {
+      "name": "Fertigation",
+      "description": "Application of fertilizers through the drip irrigation system",
+      "advantages": [
+        "Efficient nutrient delivery",
+        "Reduced fertilizer loss"
+      ],
+      "disadvantages": [
+        "Requires water-soluble fertilizers",
+        "Risk of over-fertilization"
+      ],
+      "precautions": [
+        "Monitor nutrient levels in the soil and plant tissue"
+      ],
+      "diseases": [],
+      "supplements": [
+        {
+          "name": "Urea",
+          "description": "Nitrogen fertilizer",
+          "type": "Chemical",
+          "grade": "46% N",
+          "timeOfApplication": "Regular intervals",
+          "frequencyOfApplication": "Every fourth day",
+          "quantityOfApplication": {
+            "value": 5.0,
+            "unit": "kg",
+            "_raw": "5 kg/application"
+          },
+          "unitOfMeasurement": "kg",
+          "symptoms": [],
+          "use": "To provide nitrogen for plant growth",
+          "usage": "Dissolve in water and apply through drip system",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "12:61:00 (MAP)",
+          "description": "Monoammonium Phosphate fertilizer",
+          "type": "Chemical",
+          "grade": null,
+          "timeOfApplication": "Regular intervals",
+          "frequencyOfApplication": "Every fourth day",
+          "quantityOfApplication": {
+            "value": 2.0,
+            "unit": "kg",
+            "_raw": "2 kg/application"
+          },
+          "unitOfMeasurement": "kg",
+          "symptoms": [],
+          "use": "To provide phosphorus for root development",
+          "usage": "Dissolve in water and apply through drip system",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "00:00:50 (SOP / White Potash)",
+          "description": "Potassium Sulfate fertilizer",
+          "type": "Chemical",
+          "grade": null,
+          "timeOfApplication": "Regular intervals",
+          "frequencyOfApplication": "Every fourth day",
+          "quantityOfApplication": {
+            "value": 6.5,
+            "unit": "kg",
+            "_raw": "6.5 kg/application"
+          },
+          "unitOfMeasurement": "kg",
+          "symptoms": [],
+          "use": "To provide potassium for fruit development",
+          "usage": "Dissolve in water and apply through drip system",
+          "toolsAndResources": [],
+          "referenceImages": []
+        },
+        {
+          "name": "Magnesium Sulphate",
+          "description": "Magnesium fertilizer",
+          "type": "Chemical",
+          "grade": null,
+          "timeOfApplication": "Regular intervals",
+          "frequencyOfApplication": "Every fourth day",
+          "quantityOfApplication": {
+            "value": 1.0,
+            "unit": "kg",
+            "_raw": "1 kg/application"
+          },
+          "unitOfMeasurement": "kg",
+          "symptoms": [],
+          "use": "To provide magnesium for chlorophyll production",
+          "usage": "Dissolve in water and apply through drip system",
+          "toolsAndResources": [],
+          "referenceImages": []
+        }
+      ],
+      "toolsAndResources": [
+        {
+          "name": "Fertilizer injector",
+          "description": "Device for injecting fertilizer into the drip irrigation system",
+          "use": "During fertigation",
+          "usage": "Follow manufacturer's instructions"
+        }
+      ],
+      "tips": [
+        "Monitor nutrient levels in the soil and plant tissue",
+        "Adjust fertilizer rates based on plant needs"
+      ],
+      "uses": "To provide essential nutrients for plant growth and fruit development",
+      "usage": "Dissolve fertilizers in water and inject into the drip irrigation system",
+      "referenceImages": []
+    }
+  ],
+  "fruitCare": [
+    {
+      "name": "Bunch Protection",
+      "description": "Protecting developing fruit bunches from pests and diseases",
+      "advantages": [
+        "Improved fruit quality",
+        "Reduced losses due to pests and diseases"
+      ],
+      "disadvantages": [
+        "Labor-intensive",
+        "Cost of materials"
+      ],
+      "precautions": [
+        "Apply treatments at the correct time",
+        "Use appropriate protective gear"
+      ],
+      "diseases": [
+        {
+          "name": "Pitting (Fruit Peel Disease)",
+          "description": "Disease affecting the fruit peel",
+          "cause": null,
+          "symptoms": [
+            "Pits or spots on the fruit peel"
+          ],
+          "cure": [
+            {
+              "name": "Preventive treatments (Topsin powder, Imida pesticide)",
+              "description": "Application of fungicides and insecticides",
+              "use": "To prevent the disease",
+              "usage": "Apply directly on the bunch in June-July, as the hands are opening",
+              "warnings": [],
+              "sideEffects": [],
+              "tips": [],
+              "referenceImages": []
+            }
+          ],
+          "referenceImages": []
+        }
+      ],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [
+        "Apply treatments preventively",
+        "Monitor bunches regularly for signs of pests or diseases"
+      ],
+      "uses": "To protect developing fruit bunches from pests and diseases",
+      "usage": "Apply protective treatments as needed",
+      "referenceImages": []
+    },
+    {
+      "name": "Bud Injection",
+      "description": "Injecting the male bud with nutrients/chemicals",
+      "advantages": [
+        "Improved fruit quality",
+        "Increased yield"
+      ],
+      "disadvantages": [
+        "Labor intensive"
+      ],
+      "precautions": [],
+      "diseases": [],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Improved fruit quality and yield",
+      "usage": null,
+      "referenceImages": []
+    },
+    {
+      "name": "Bunch Spray",
+      "description": "Applying protective sprays on the bunch",
+      "advantages": [
+        "Protection from pests and diseases",
+        "Improved fruit appearance"
+      ],
+      "disadvantages": [
+        "Potential for chemical residues"
+      ],
+      "precautions": [],
+      "diseases": [],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Protection from pests and diseases; improved appearance",
+      "usage": null,
+      "referenceImages": []
+    },
+    {
+      "name": "Flower Removal",
+      "description": "Removing the male florets",
+      "advantages": [
+        "Improved fruit size",
+        "Reduced pest attraction"
+      ],
+      "disadvantages": [
+        "Labor intensive"
+      ],
+      "precautions": [],
+      "diseases": [],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Improved fruit size and reduced pest attraction",
+      "usage": null,
+      "referenceImages": []
+    },
+    {
+      "name": "Bagging",
+      "description": "Using skirting bags for protection",
+      "advantages": [
+        "Protection from pests, diseases, and sunburn",
+        "Improved fruit appearance"
+      ],
+      "disadvantages": [
+        "Cost of bags",
+        "Can increase humidity and disease risk if not properly ventilated"
+      ],
+      "precautions": [],
+      "diseases": [],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Protection from pests, diseases and sunburn",
+      "usage": null,
+      "referenceImages": []
+    },
+    {
+      "name": "Hand Selection",
+      "description": "Pruning the bunch to keep 9-10 hands for better fruit filling and quality",
+      "advantages": [
+        "Improved fruit size and quality",
+        "More uniform fruit development"
+      ],
+      "disadvantages": [
+        "Reduced yield per bunch"
+      ],
+      "precautions": [],
+      "diseases": [],
+      "supplements": [],
+      "toolsAndResources": [],
+      "tips": [],
+      "uses": "Improved fruit size and quality",
+      "usage": null,
+      "referenceImages": []
+    }
+  ],
+  "harvesting": [
+    {
+      "name": "Harvesting Mature Bunches",
+      "description": "Cutting and removing mature banana bunches from the plant",
+      "precautions": [
+        "Handle bunches carefully to avoid bruising",
+        "Harvest at the correct stage of maturity"
+      ],
+      "tips": [
+        "Use sharp knives or machetes",
+        "Harvest in the early morning or late afternoon to avoid heat stress"
+      ],
+      "diseases": [],
+      "maturityIndex": [
+        "Finger fullness",
+        "Rib disappearance",
+        "Skin color"
+      ],
+      "referenceImages": [],
+      "toolsAndResources": [
+        {
+          "name": "Banana knife",
+          "description": "Specialized knife for harvesting banana bunches",
+          "use": "During harvesting",
+          "usage": "Cut the bunch stalk cleanly"
+        }
+      ],
+      "qualityGradingAndControl": [
+        {
+          "name": "Size grading",
+          "description": "Sorting bananas based on size and weight"
+        },
+        {
+          "name": "Visual inspection",
+          "description": "Checking for defects, bruises, and diseases"
+        }
+      ]
+    }
+  ],
+  "postHarvesting": [
+    "Cleaning",
+    "Sorting",
+    "Packing",
+    "Dehanding",
+    "Washing",
+    "Fungicide treatment (if necessary)",
+    "Pre-cooling"
+  ],
+  "storage": [
+    {
+      "name": "Cold Storage",
+      "description": "Storing bananas at low temperatures to extend shelf life",
+      "advantages": [
+        "Extended shelf life",
+        "Reduced spoilage"
+      ],
+      "disadvantages": [
+        "High initial cost",
+        "Energy consumption"
+      ],
+      "tips": [
+        "Maintain consistent temperature and humidity",
+        "Proper ventilation"
+      ],
+      "referenceImages": []
+    }
+  ],
+  "fruitProcessing": [
+    {
+      "name": "Banana Chips Production",
+      "description": "Slicing, frying, and seasoning bananas to produce banana chips",
+      "advantages": [
+        "Value addition",
+        "Extended shelf life"
+      ],
+      "disadvantages": [
+        "Requires specialized equipment",
+        "High energy consumption"
+      ],
+      "tips": [
+        "Use ripe but firm bananas",
+        "Control frying temperature carefully"
+      ]
+    },
+    {
+      "name": "Banana Puree Production",
+      "description": "Mashing and processing bananas into a smooth puree",
+      "advantages": [
+        "Versatile ingredient for food products",
+        "Easy to store and transport"
+      ],
+      "disadvantages": [
+        "Requires specialized equipment",
+        "Can lose some nutrients during processing"
+      ],
+      "tips": [
+        "Use fully ripe bananas",
+        "Add citric acid to prevent browning"
+      ]
+    }
+  ],
+  "transportation": [
+    {
+      "name": "Refrigerated Trucks",
+      "description": "Transporting bananas in refrigerated trucks to maintain low temperatures",
+      "precautions": [
+        "Maintain consistent temperature",
+        "Avoid rough handling"
+      ],
+      "advantages": [
+        "Maintains fruit quality",
+        "Extends shelf life"
+      ],
+      "disadvantages": [
+        "Higher transportation cost",
+        "Requires specialized equipment"
+      ],
+      "tips": [
+        "Load and unload trucks carefully",
+        "Monitor temperature during transit"
+      ]
+    }
+  ],
+  "exporting": [
+    {
+      "name": "Container Shipping",
+      "description": "Shipping bananas in refrigerated containers",
+      "precautions": [
+        "Proper packaging to prevent damage",
+        "Maintain consistent temperature and humidity"
+      ],
+      "tips": [
+        "Follow export regulations",
+        "Obtain necessary documentation"
+      ],
+      "referenceImages": []
+    }
+  ],
+  "metadata": {
+    "version": {
+      "_raw": "1.2",
+      "value": 1.2
+    },
+    "lastUpdated": "2025-10-27",
+    "author": "Prompt Optimizer",
+    "notes": "Expanded version of schema with added location, season, and temperature fields for regional adaptability and environmental context."
+  }
+}
