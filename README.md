@@ -220,8 +220,4 @@ python .\merge_json.py
 - Open issues with example input text and desired schema fields for guidance.
 
 
-#   e t l _ n e w 
- 
- #   e t l _ n e w 
- 
- 
+#
